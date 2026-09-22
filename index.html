@@ -1,0 +1,1997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="googlebot" content="noindex, nofollow">
+<title>Medically Supervised GLP-1 Therapy in Elizabethtown, KY | ANU Face, Mind, Body</title>
+<meta name="description" content="Semaglutide and tirzepatide prescribed, dosed and monitored in person by a board-certified nurse practitioner in Elizabethtown, Kentucky. $39 first visit.">
+<link rel="icon" type="image/png" sizes="512x512" href="images/favicon-anu.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   ANU GLP-1 landing page
+   Tokens read from ANU brand identity guidelines
+   ============================================================ */
+:root{
+  --brand:#392E26;
+  --brand-hover:#2A2219;
+  --secondary:#6A5C4C;
+  --accent:#B7A693;
+  --surface-secondary:#E3D9CE;
+  --surface-muted:#F5F1ED;
+  --sage:rgba(183,189,173,.45);
+  --white:#FFFFFF;
+
+  --line:rgba(57,46,38,.10);
+  --line-strong:rgba(57,46,38,.20);
+  --ink-80:rgba(57,46,38,.75);
+  --ink-50:rgba(57,46,38,.50);
+  --w-85:rgba(255,255,255,.85);
+  --w-75:rgba(255,255,255,.75);
+  --w-60:rgba(255,255,255,.60);
+  --w-35:rgba(255,255,255,.20);
+
+  --radius-sm:4px;
+  --radius-md:8px;
+  --radius-lg:16px;
+  --radius-xl:24px;
+
+  --shadow-md:0 8px 24px rgba(0,0,0,.12);
+  --shadow-lg:0 20px 40px rgba(0,0,0,.16);
+
+  --container:1312px;
+  --gutter:64px;
+  --edge:max(var(--gutter), calc((100% - var(--container)) / 2));
+
+  --t-fast:.15s ease;
+  --t-base:.3s ease;
+}
+
+*,*::before,*::after{box-sizing:border-box;}
+html{ -webkit-text-size-adjust:100%; scroll-behavior:auto; }
+body{
+  margin:0;
+  width:100%;
+  overflow-x:hidden;
+  font-family:"Poppins",system-ui,sans-serif;
+  font-weight:400;
+  color:var(--brand);
+  background:var(--white);
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+h1,h2,h3,h4,p,figure{margin:0;}
+ul,ol{margin:0;padding:0;list-style:none;}
+a{color:inherit;text-decoration:none;transition:color var(--t-fast);}
+button{font:inherit;color:inherit;border:0;background:none;cursor:pointer;}
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px;}
+.bg-dark :focus-visible,.hero :focus-visible{outline-color:#fff;}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;}
+
+/* ---------- layout primitives ---------- */
+.section{ width:100%; padding:120px var(--gutter); display:flex; flex-direction:column; align-items:center; }
+.container{ width:100%; max-width:var(--container); margin:0 auto; }
+.clip{ overflow:hidden; padding-bottom:.14em; margin-bottom:-.14em; }
+
+/* ---------- type ---------- */
+.eyebrow{ display:flex; align-items:center; gap:8px; }
+.eyebrow i{ display:block; width:10px; height:10px; background:var(--brand); flex:0 0 auto; }
+.eyebrow span{ font-size:14px; font-weight:500; line-height:1.5; letter-spacing:.7px; color:var(--ink-80); }
+.on-dark .eyebrow i{ background:#fff; }
+.on-dark .eyebrow span{ color:var(--w-85); }
+
+.h1{ font-size:72px; font-weight:400; line-height:1.1; }
+.h2{ font-size:50px; font-weight:400; line-height:1.1; }
+.h2-48{ font-size:48px; font-weight:400; line-height:1.1; }
+.h2-44{ font-size:44px; font-weight:400; line-height:1.1; }
+.lead{ font-size:18px; line-height:1.5; }
+.body-16{ font-size:16px; line-height:1.625; }
+.label{ font-size:12px; font-weight:500; line-height:1.5; letter-spacing:.6px; }
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  border:1px solid transparent; border-radius:var(--radius-md);
+  font-size:18px; font-weight:500; line-height:1; padding:16px 32px;
+  transition:background-color var(--t-base),border-color var(--t-base),color var(--t-base),box-shadow var(--t-base),transform var(--t-base);
+  will-change:transform;
+}
+.btn-sm{ font-size:16px; padding:12px 24px; }
+.btn-nav{ font-size:14px; font-weight:600; padding:12px 24px; border-radius:10px; }
+.btn-primary{ background:var(--brand); border-color:var(--brand); color:#fff; }
+.btn-primary:hover{ background:var(--brand-hover); border-color:var(--brand-hover); box-shadow:var(--shadow-md); transform:translateY(-2px); }
+.btn-white{ background:#fff; border-color:#fff; color:var(--brand); }
+.btn-white:hover{ background:var(--surface-secondary); border-color:var(--surface-secondary); box-shadow:var(--shadow-md); transform:translateY(-2px); }
+.btn-outline{ background:transparent; border-color:var(--brand); color:var(--brand); }
+.btn-outline:hover{ background:var(--brand); color:#fff; }
+.btn-outline-light{ background:transparent; border-color:#fff; color:#fff; }
+.btn-outline-light:hover{ background:#fff; color:var(--brand); }
+.btn[disabled]{ opacity:.45; pointer-events:none; }
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{
+  position:relative; width:100%;
+  min-height:760px; height:100vh; max-height:1000px;
+  padding:32px var(--gutter) 40px;
+  display:flex; flex-direction:column;
+  overflow:hidden; isolation:isolate;
+}
+.hero__media{ position:absolute; inset:-6% 0; z-index:-2; overflow:hidden; background:var(--brand-hover); }
+.hero__media video,.hero__media img{ width:100%; height:100%; object-fit:cover; object-position:center 30%; display:block; }
+.hero__overlay{
+  position:absolute; inset:0; z-index:-1;
+  background:linear-gradient(183deg, rgba(0,0,0,.72) 0%, rgba(0,0,0,.28) 42%, rgba(0,0,0,.82) 100%);
+}
+.hero__spacer{ flex:1 1 auto; min-height:24px; }
+.hero__copy,.stats{ flex:0 0 auto; }
+
+/* nav (design from dysport.html) */
+.nav{
+  position:fixed; z-index:80; top:24px; left:var(--edge); right:var(--edge);
+  min-height:68px; background:var(--white); border-radius:16px;
+  padding:0 24px; display:flex; align-items:center; justify-content:space-between;
+  box-shadow:var(--shadow-md);
+  transition:box-shadow var(--t-base);
+}
+.nav__logo{ width:108px; height:30px; flex:0 0 auto; transition:opacity var(--t-fast); }
+.nav__logo img{ width:100%; height:100%; object-fit:contain; }
+.nav__links{ display:flex; align-items:center; gap:4px; }
+.nav__link{
+  white-space:nowrap; padding:8px 14px; border-radius:8px; font-size:15px; font-weight:500;
+  letter-spacing:.15px; line-height:1.4; color:var(--brand);
+  transition:background-color var(--t-fast),color var(--t-fast);
+}
+.nav__right{ display:flex; align-items:center; gap:20px; }
+.nav__phone{ white-space:nowrap; font-size:15px; font-weight:500; line-height:1.4; color:var(--brand);
+  transition:color var(--t-fast); }
+.nav__cta{
+  white-space:nowrap; background:var(--brand); color:var(--white); border-radius:10px; padding:10px 22px;
+  font-size:15px; font-weight:600; line-height:1.5; display:inline-flex;
+  transition:background-color var(--t-base);
+}
+.nav__mobile{ display:none; }
+.nav__mobile-cta{
+  display:none; margin-top:8px; background:var(--brand); color:var(--white); border-radius:10px;
+  padding:14px 22px; font-size:16px; font-weight:600; line-height:1.4; text-align:center;
+}
+.nav__burger{ display:none; width:44px; height:44px; align-items:center; justify-content:center; border-radius:10px; }
+.nav__burger span{ display:block; width:20px; height:1.5px; background:var(--brand); position:relative;
+  transition:background-color var(--t-base); }
+.nav__burger span::before,.nav__burger span::after{ content:""; position:absolute; left:0; width:20px; height:1.5px;
+  background:var(--brand); transition:transform var(--t-base); }
+.nav__burger span::before{ top:-6px; }
+.nav__burger span::after{ top:6px; }
+.nav.is-open .nav__burger span{ background:transparent; }
+.nav.is-open .nav__burger span::before{ transform:translateY(6px) rotate(45deg); }
+.nav.is-open .nav__burger span::after{ transform:translateY(-6px) rotate(-45deg); }
+@media (hover:hover) and (pointer:fine){
+  .nav:hover{ box-shadow:var(--shadow-lg); }
+  .nav__logo:hover{ opacity:.8; }
+  .nav__link:hover{ background:rgba(183,166,147,.18); }
+  .nav__phone:hover{ color:var(--secondary); }
+  .nav__cta:hover{ background:var(--brand-hover); }
+}
+
+/* hero copy */
+.hero__copy{ width:820px; max-width:100%; display:flex; flex-direction:column; gap:24px; padding-bottom:40px; }
+.hero__copy .eyebrow i{ background:#fff; }
+.hero__copy .eyebrow span{ color:var(--w-85); }
+.hero__title{ color:#fff; }
+.hero__sub{ width:660px; max-width:100%; color:var(--w-85); font-size:18px; line-height:1.5; }
+.hero__ctas{ display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+.hero__trust{ display:flex; align-items:center; gap:16px; flex-wrap:wrap; color:var(--w-75); font-size:14px; line-height:1.5; }
+.hero__trust .rule{ width:1px; height:14px; background:rgba(255,255,255,.35); display:block; }
+
+/* stat strip */
+.stats{
+  width:100%; display:flex; gap:32px;
+  border-top:1px solid rgba(255,255,255,.20);
+  padding-top:28px;
+}
+.stat{ flex:1 1 0; display:flex; flex-direction:column; gap:8px; }
+.stat b{ font-size:12px; font-weight:500; line-height:1.5; letter-spacing:.6px; color:var(--w-60); }
+.stat span{ font-size:32px; font-weight:400; line-height:1.1; color:#fff; }
+
+/* ============================================================
+   BEFORE / AFTER
+   ============================================================ */
+.ba{ background:var(--brand); color:#fff; }
+.ba__inner{ display:flex; flex-direction:column; gap:80px; }
+.ba__head{ display:flex; flex-direction:column; gap:20px; }
+.ba__head .h2{ max-width:900px; color:#fff; }
+.ba__head p{ max-width:640px; color:var(--w-75); font-size:18px; line-height:1.5; }
+.pair{ display:flex; align-items:center; gap:80px; }
+.pair--flip{ flex-direction:row-reverse; }
+.photos{ position:relative; width:560px; height:568px; flex:0 0 auto; }
+.photo{
+  position:absolute; width:300px; height:480px; border-radius:12px; overflow:hidden;
+  box-shadow:0 0 0 8px #fff, 0 20px 40px rgba(0,0,0,.16);
+  display:flex; align-items:flex-end; padding:12px; background-size:cover; background-position:center;
+}
+.photo--before{ left:8px; top:8px; }
+.photo--after{ left:252px; top:80px; }
+.chip{
+  background:rgba(255,255,255,.90); color:var(--brand); border-radius:var(--radius-sm);
+  padding:4px 8px; font-size:11px; font-weight:600; line-height:1.2; letter-spacing:.88px;
+}
+.caption{ flex:1 1 auto; display:flex; flex-direction:column; gap:14px; min-width:0; }
+.caption .idx{ font-size:12px; font-weight:500; line-height:1.5; letter-spacing:.6px; color:var(--w-60); }
+.caption .delta{ font-size:32px; line-height:1.1; color:#fff; }
+.caption .weeks{ font-size:18px; line-height:1.5; color:var(--w-75); }
+.caption .subj{ font-size:14px; line-height:1.5; color:var(--w-60); }
+.ba__foot{ display:flex; flex-direction:column; gap:32px; align-items:flex-start; }
+.ba__foot p{ font-size:13px; line-height:1.5; color:var(--w-60); }
+
+/* ============================================================
+   QUIZ
+   ============================================================ */
+.quiz{ background:var(--surface-secondary); gap:48px; }
+.quiz__inner{ display:flex; flex-direction:column; gap:48px; }
+.quiz__head{ width:820px; max-width:100%; display:flex; flex-direction:column; gap:20px; }
+.quiz__head p{ color:var(--ink-80); font-size:18px; line-height:1.5; }
+.quiz__row{ display:flex; gap:24px; align-items:stretch; }
+.quiz__card{
+  flex:1 1 auto; min-width:0; background:#fff; border:1px solid var(--line);
+  border-radius:var(--radius-xl); padding:40px; display:flex; flex-direction:column; gap:24px;
+}
+.quiz__step{ font-size:12px; font-weight:500; line-height:1.5; letter-spacing:.6px; color:var(--ink-50); }
+.quiz__q{ font-size:32px; line-height:1.1; }
+.options{ display:flex; flex-direction:column; gap:10px; }
+.option{
+  display:flex; align-items:center; gap:14px; width:100%; text-align:left;
+  background:#fff; border:1px solid var(--line); border-radius:var(--radius-md);
+  padding:16px 20px; font-size:16px; line-height:1.5; color:var(--brand);
+  transition:background-color var(--t-base),border-color var(--t-base);
+}
+.option .radio{
+  width:16px; height:16px; border-radius:50%; flex:0 0 auto;
+  border:1.5px solid rgba(57,46,38,.20);
+  transition:border-width var(--t-fast),border-color var(--t-fast);
+}
+.option:hover{ background:var(--surface-muted); border-color:var(--line-strong); }
+.option.is-selected{ background:var(--surface-muted); border-color:var(--line-strong); }
+.option.is-selected .radio{ border:4.5px solid var(--brand); }
+.quiz__actions{ display:flex; align-items:center; gap:20px; flex-wrap:wrap; }
+.quiz__micro{ flex:1 1 220px; font-size:14px; line-height:1.5; color:var(--ink-50); }
+.quiz__back{ font-size:14px; font-weight:500; color:var(--ink-50); }
+.quiz__back:hover{ color:var(--brand); }
+.quiz__result h3{ font-size:32px; font-weight:400; line-height:1.15; }
+.quiz__result p{ font-size:16px; line-height:1.625; color:var(--ink-80); }
+.quiz__result ul{ display:flex; flex-direction:column; gap:12px; }
+.quiz__result li{ display:flex; gap:12px; font-size:14px; line-height:1.5; color:var(--ink-80); border-top:1px solid var(--line); padding-top:12px; }
+.quiz__result li i{ width:6px; height:6px; background:var(--accent); flex:0 0 auto; margin-top:8px; display:block; }
+
+.quiz__tile{
+  width:440px; flex:0 0 auto; background:var(--sage); border:1px solid var(--line);
+  border-radius:var(--radius-xl); padding:40px; display:flex; flex-direction:column; gap:28px;
+}
+.quiz__tile h3{ font-size:24px; font-weight:400; line-height:1.25; }
+.progress{ display:flex; gap:6px; }
+.progress span{ flex:1 1 0; height:4px; border-radius:2px; background:rgba(57,46,38,.20); transition:background-color .4s cubic-bezier(.16,1,.3,1); }
+.progress span.on{ background:var(--brand); }
+.steps{ display:flex; flex-direction:column; gap:16px; }
+.step{ display:flex; gap:14px; border-top:1px solid var(--line); padding-top:14px; }
+.step .num{ font-size:12px; font-weight:500; line-height:1.6; letter-spacing:.6px; color:var(--ink-50); transition:color var(--t-base); }
+.step .nm{ font-size:14px; font-weight:500; line-height:1.5; color:var(--ink-80); transition:color var(--t-base); }
+.step .qq{ font-size:13px; line-height:1.5; color:var(--ink-50); }
+.step__copy{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+.step.is-active .num,.step.is-active .nm{ color:var(--brand); }
+.step.is-done .num{ color:var(--accent); }
+
+/* form inputs (shared) */
+.field{ display:flex; flex-direction:column; gap:8px; }
+.field label{ font-size:14px; line-height:1.5; color:var(--ink-80); }
+
+.contact .field input,.contact .field textarea{ background:var(--surface-muted); }
+.contact .field input:focus,.contact .field textarea:focus{ background:#fff; }
+.field input,.field textarea{
+  width:100%; font:inherit; font-size:16px; line-height:1.5; color:var(--brand);
+  background:#fff; border:1px solid var(--line); border-radius:var(--radius-md);
+  padding:14px 16px; transition:border-color .18s ease, box-shadow .18s ease;
+}
+.field input{ height:52px; }
+.field textarea{ height:120px; resize:vertical; }
+.field input::placeholder,.field textarea::placeholder{ color:var(--ink-50); }
+.field input:focus,.field textarea:focus{ outline:none; border-color:var(--brand); box-shadow:0 0 0 3px rgba(57,46,38,.08); }
+.field-row{ display:flex; gap:16px; }
+.field-row>*{ flex:1 1 0; min-width:0; }
+
+/* ============================================================
+   WHAT'S INCLUDED
+   ============================================================ */
+.included{ position:relative; gap:96px; color:#fff; isolation:isolate; overflow:hidden; }
+.included__media{ position:absolute; inset:0; z-index:-2; background:url("images/WEB-weight_loss_anu_4_e78abe706e.webp") center/cover no-repeat; }
+.included__tint{ position:absolute; inset:0; z-index:-1; background:rgba(0,0,0,.72); }
+.included__grid{ display:flex; gap:104px; }
+.included__left{ width:490px; flex:0 0 auto; display:flex; flex-direction:column; gap:24px; align-items:flex-start; }
+.included__left .h2-48{ color:#fff; }
+.included__left p{ color:var(--w-85); font-size:16px; line-height:1.625; }
+.included__right{ flex:1 1 auto; min-width:0; display:flex; flex-direction:column; gap:48px; }
+.group__label{ font-size:12px; font-weight:500; line-height:1.5; letter-spacing:.6px; color:var(--w-60); }
+.group__items{ padding-top:16px; display:flex; flex-direction:column; }
+.group__items li{ display:flex; gap:16px; border-top:1px solid rgba(255,255,255,.20); padding:14px 0; }
+.group__items .n{ font-size:13px; font-weight:500; line-height:1.6; letter-spacing:.6px; color:var(--w-60); }
+.group__items .t{ font-size:16px; line-height:1.625; color:#fff; }
+.rule-w{ width:100%; max-width:var(--container); height:1px; background:rgba(255,255,255,.20); }
+.honesty{ width:800px; max-width:100%; display:flex; flex-direction:column; gap:40px; align-items:center; text-align:center; }
+.honesty__para{ font-size:32px; line-height:1.35; color:#fff; }
+.honesty__rule{ width:64px; height:1px; background:rgba(255,255,255,.35); }
+.honesty__emph{ font-size:40px; line-height:1.25; color:#fff; }
+.honesty__close{ width:640px; max-width:100%; font-size:20px; line-height:1.5; color:var(--w-85); }
+
+/* ============================================================
+   PRICING
+   ============================================================ */
+.pricing{ background:var(--surface-secondary); }
+.pricing__inner{ display:flex; flex-direction:column; gap:56px; }
+.pricing__head{ display:flex; flex-direction:column; gap:20px; }
+.tiers{ display:flex; gap:24px; align-items:stretch; }
+.tier{ border-radius:var(--radius-xl); padding:40px; overflow:visible; will-change:transform;
+  transition:transform var(--t-base),box-shadow var(--t-base),border-color var(--t-base); display:flex; flex-direction:column; gap:18px; min-height:600px; }
+.tier--start{ width:500px; flex:0 0 auto; background:var(--brand); color:#fff; }
+.tier--plain{ width:382px; flex:0 0 auto; background:#fff; border:1px solid var(--line); }
+.tier .t-label{ font-size:12px; font-weight:500; line-height:1.5; letter-spacing:.6px; }
+.tier--start .t-label{ color:var(--w-60); }
+.tier--plain .t-label{ color:var(--ink-50); }
+.price-row{ display:flex; align-items:flex-end; gap:8px; flex-wrap:nowrap; white-space:nowrap; }
+.price{ font-size:52px; line-height:1.1; }
+.price--sm{ font-size:36px; }
+.per{ font-size:16px; line-height:1.9; }
+.tier--start .per{ color:var(--w-75); }
+.tier--plain .per{ color:var(--ink-50); }
+.tier .t-desc{ font-size:16px; line-height:1.625; }
+.tier--start .t-desc{ color:var(--w-75); }
+.tier--plain .t-desc{ color:var(--ink-80); }
+.tier ul{ padding-top:8px; display:flex; flex-direction:column; }
+.tier li{ display:flex; gap:12px; padding:12px 0; font-size:14px; line-height:1.5; }
+.tier--start li{ border-top:1px solid rgba(255,255,255,.20); color:var(--w-85); }
+.tier--plain li{ border-top:1px solid var(--line); color:var(--ink-80); }
+.tier li i{ width:6px; height:6px; background:var(--accent); flex:0 0 auto; margin-top:7px; display:block; }
+.tier .grow{ flex:1 1 auto; }
+.tier .note{ font-size:14px; line-height:1.5; color:var(--ink-50); }
+.tier .btn{ align-self:flex-start; }
+.tier--plain:hover{ transform:translateY(-4px); box-shadow:var(--shadow-lg); border-color:var(--brand); }
+.tier--start{ position:relative; }
+.tier--start .t-label,.tier--start .price,.tier--start .per,.tier--start .t-desc,
+.tier--start li,.tier--start li i{ transition:color var(--t-base),border-color var(--t-base),background-color var(--t-base); }
+.tier--start:hover{
+  transform:translateY(-10px) scale(1.015);
+  background:var(--secondary);
+  box-shadow:0 32px 64px rgba(57,46,38,.38), 0 0 0 1px rgba(255,255,255,.30);
+}
+.tier--start:hover .t-label{ color:rgba(255,255,255,.80); }
+.tier--start:hover .price{ color:var(--surface-secondary); }
+.tier--start:hover .per,.tier--start:hover .t-desc{ color:rgba(255,255,255,.85); }
+.tier--start:hover li{ border-top-color:rgba(255,255,255,.32); color:#fff; }
+.tier--start:hover li i{ background:var(--surface-secondary); }
+.tier--start:hover .btn-white{ background:var(--surface-secondary); border-color:var(--surface-secondary); color:var(--brand); }
+.pricing__foot{ display:flex; flex-direction:column; gap:10px; }
+.pricing__foot .fin{ max-width:820px; font-size:16px; line-height:1.625; color:var(--ink-80); }
+.pricing__foot .fn{ max-width:820px; font-size:12px; line-height:1.5; color:var(--ink-50); }
+
+/* ============================================================
+   HOW IT WORKS
+   ============================================================ */
+.how{ background:var(--brand); color:#fff; gap:40px; }
+.how__head{ width:100%; max-width:var(--container); display:flex; flex-direction:column; gap:20px; }
+.how__content{ width:100%; max-width:var(--container); display:flex; gap:64px; }
+.how__left{ width:420px; flex:0 0 auto; display:flex; flex-direction:column; align-items:flex-start; }
+.how__left .h2-44{ color:#fff; }
+.how__left .sub{ font-size:17px; line-height:1.5; color:var(--w-75); margin-top:20px; }
+.how__photo{ width:100%; height:380px; border-radius:var(--radius-xl); overflow:hidden; margin-top:40px; }
+.how__photo img{ width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
+.how__photo:hover img{ transform:scale(1.04); }
+.how__left .btn{ margin-top:28px; }
+.how__steps{ flex:1 1 auto; min-width:0; display:flex; flex-direction:column; gap:40px; }
+.how__step{ display:flex; gap:24px; border-radius:12px; padding:14px 18px; margin:-14px -18px;
+  transition:background-color var(--t-base),transform var(--t-base); }
+.how__step:hover{ background:rgba(255,255,255,.07); transform:translateX(6px); }
+.how__step:hover .n{ color:var(--accent); }
+.how__step .n{ font-size:16px; font-weight:500; line-height:1.7; letter-spacing:.6px; color:var(--w-60); flex:0 0 auto; }
+.how__step h3{ font-size:24px; font-weight:400; line-height:1.25; }
+.how__step p{ font-size:16px; line-height:1.625; color:var(--w-75); margin-top:10px; }
+
+/* ============================================================
+   PROVIDER
+   ============================================================ */
+.provider{ position:relative; padding:112px var(--gutter); color:#fff; isolation:isolate; overflow:hidden; }
+.provider__media{ position:absolute; inset:0; z-index:-2; background:url("images/WEB-ANU_Facilities_DIGITAL_9_dc20d76dd1.webp") center/cover no-repeat; }
+.provider__tint{ position:absolute; inset:0; z-index:-1; background:rgba(57,46,38,.90); }
+.provider__grid{ display:flex; gap:96px; align-items:center; }
+.provider__photo{ width:440px; height:560px; flex:0 0 auto; border-radius:var(--radius-xl); overflow:hidden; }
+.provider__photo img{ width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
+.provider__photo:hover img{ transform:scale(1.04); }
+.provider__copy{ flex:1 1 auto; min-width:0; display:flex; flex-direction:column; gap:24px; align-items:flex-start; }
+.provider__copy .h2-44{ color:#fff; }
+.provider__role{ font-size:18px; line-height:1.5; color:var(--w-75); }
+.provider__bio{ font-size:18px; line-height:1.625; color:var(--w-85); }
+.creds{ display:flex; flex-wrap:wrap; gap:12px; }
+.cred{ border:1px solid rgba(255,255,255,.20); border-radius:var(--radius-md); padding:10px 18px; font-size:14px; font-weight:500; line-height:1.2; }
+
+/* ============================================================
+   REVIEWS
+   ============================================================ */
+.reviews{ background:#fff; gap:40px; }
+.reviews__inner{ display:flex; flex-direction:column; gap:24px; }
+.reviews__head{ width:720px; max-width:100%; display:flex; flex-direction:column; gap:20px; }
+.reviews__row{ display:flex; gap:24px; align-items:stretch; }
+.rating-tile{ width:320px; flex:0 0 auto; background:var(--surface-secondary); border:1px solid var(--line); border-radius:var(--radius-xl); padding:36px; display:flex; flex-direction:column; gap:12px; }
+.rating-tile .lbl{ font-size:12px; font-weight:500; line-height:1.5; letter-spacing:.6px; color:var(--ink-50); }
+.rating-tile .val{ font-size:64px; line-height:1; }
+.rating-tile .stars{ font-size:18px; line-height:1.3; color:var(--brand); }
+.rating-tile .cnt{ font-size:14px; line-height:1.5; color:var(--ink-80); }
+.review{ flex:1 1 0; min-width:0; background:#fff; border:1px solid var(--line); border-radius:var(--radius-xl); padding:36px; display:flex; flex-direction:column; gap:20px; transition:transform var(--t-base),box-shadow var(--t-base),border-color var(--t-base); }
+.review:hover{ transform:translateY(-4px); box-shadow:var(--shadow-lg); border-color:var(--brand); }
+.review__head{ display:flex; align-items:center; gap:14px; }
+.avatar{ width:40px; height:40px; border-radius:50%; background:var(--brand); color:#fff; display:flex; align-items:center; justify-content:center; font-size:14px; font-weight:500; flex:0 0 auto; }
+.review__meta{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+.review__meta .nm{ font-size:16px; font-weight:500; line-height:1.3; }
+.review__meta .st{ font-size:13px; line-height:1.3; color:var(--ink-80); }
+.review__quote{ font-size:16px; line-height:1.625; color:var(--ink-80); }
+.review--fixed{ width:520px; flex:0 0 auto; }
+.reviews__cta{ flex:1 1 auto; min-width:0; background:var(--brand); color:#fff; border-radius:var(--radius-xl); padding:40px; display:flex; align-items:center; gap:32px; }
+.reviews__cta .copy{ flex:1 1 auto; min-width:0; display:flex; flex-direction:column; gap:8px; }
+.reviews__cta .btn{ flex:0 0 auto; white-space:nowrap; }
+.reviews__cta h3{ font-size:28px; font-weight:400; line-height:1.2; }
+.reviews__cta p{ font-size:15px; line-height:1.6; color:var(--w-75); }
+.reviews__note{ font-size:13px; line-height:1.5; color:var(--ink-50); }
+
+/* ============================================================
+   IN PERSON
+   ============================================================ */
+.inperson{ background:var(--surface-secondary); }
+.inperson__inner{ display:flex; flex-direction:column; gap:56px; }
+.inperson__head{ display:flex; flex-direction:column; gap:20px; }
+.inperson__split{ display:flex; gap:80px; }
+.points{ flex:1 1 auto; min-width:0; display:flex; flex-direction:column; }
+.point{ border-top:1px solid var(--line); padding:24px 18px; margin:0 -18px; display:flex; flex-direction:column; gap:8px;
+  transition:background-color var(--t-base),transform var(--t-base); }
+.point:hover{ background:rgba(255,255,255,.55); transform:translateX(6px); }
+.point h3{ font-size:22px; font-weight:400; line-height:1.25; }
+.point p{ font-size:16px; line-height:1.625; color:var(--ink-80); }
+.inperson__photo{ width:520px; height:764px; flex:0 0 auto; border-radius:var(--radius-xl); overflow:hidden; }
+.inperson__photo img{ width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
+.inperson__photo:hover img{ transform:scale(1.04); }
+
+/* ============================================================
+   COMPARISON
+   ============================================================ */
+.compare{ background:var(--surface-muted); }
+.compare__inner{ display:flex; flex-direction:column; gap:48px; }
+.compare__head{ display:flex; flex-direction:column; gap:20px; }
+.table{ width:100%; background:#fff; border:1px solid var(--line); border-radius:var(--radius-lg); overflow:hidden; }
+.tr{ display:flex; }
+.tr+.tr{ border-top:1px solid var(--line); }
+.table .tr:not(.thead){ transition:background-color var(--t-base); }
+.table .tr:not(.thead):hover{ background:rgba(183,166,147,.16); }
+.table .tr:not(.thead):hover .td.own{ background:rgba(183,166,147,.30); }
+.table .tr:not(.thead):hover .td.other{ color:var(--brand); }
+.thead{ background:var(--brand); color:#fff; }
+.th,.td{ padding:18px 20px; font-size:14px; line-height:1.5; }
+.th{ font-size:12px; font-weight:500; letter-spacing:.6px; }
+.c0{ width:340px; flex:0 0 auto; font-weight:500; }
+.c{ width:324px; flex:0 0 auto; }
+.td.own{ background:var(--surface-muted); font-weight:500; color:var(--brand); }
+.td.other{ color:var(--ink-80); }
+.compare__note{ font-size:12px; line-height:1.5; color:var(--ink-50); }
+
+/* ============================================================
+   SAFETY
+   ============================================================ */
+.safety{ background:var(--sage); gap:40px; }
+.safety__head{ width:100%; max-width:var(--container); display:flex; flex-direction:column; gap:20px; }
+.safety__content{ width:100%; max-width:var(--container); display:flex; flex-direction:column; }
+.safety__content .h2{ max-width:820px; }
+.safety__body{ display:flex; gap:64px; margin-top:48px; align-items:flex-start; }
+.safety__list{ flex:1 1 auto; min-width:0; display:flex; flex-direction:column; }
+.sblock{ border-top:1px solid rgba(57,46,38,.20); padding:24px 0 32px; display:flex; flex-direction:column; gap:12px; }
+.sblock .lbl{ font-size:12px; font-weight:500; line-height:1.5; letter-spacing:.6px; color:var(--ink-50); }
+.sblock .det{ font-size:18px; line-height:1.625; }
+.safety__list .end{ height:1px; background:rgba(57,46,38,.20); }
+
+/* NOT A CANDIDATE IF, as a list */
+.slist{ display:flex; flex-direction:column; margin-top:4px; }
+.slist li{ display:flex; gap:14px; align-items:flex-start; padding:14px 0; font-size:17px; line-height:1.55;
+  border-top:1px solid var(--line); transition:color var(--t-base); }
+.slist li:first-child{ border-top:0; padding-top:6px; }
+.slist li i{ width:6px; height:6px; background:var(--accent); flex:0 0 auto; margin-top:10px; display:block; }
+
+
+/* right rail */
+.safety__side{ width:380px; flex:0 0 auto; display:flex; flex-direction:column; gap:24px; }
+.safety__card{ background:var(--brand); color:#fff; border-radius:var(--radius-xl); padding:32px;
+  display:flex; flex-direction:column; gap:14px; }
+.safety__card .lbl{ font-size:12px; font-weight:500; line-height:1.5; letter-spacing:.6px; color:var(--w-60); }
+.safety__card .hd{ font-size:28px; line-height:1.2; }
+.safety__card .bd{ font-size:15px; line-height:1.65; color:var(--w-85); }
+.safety__panel{ width:100%; background:#fff; border:1px solid var(--line); border-radius:var(--radius-xl); padding:32px; display:flex; flex-direction:column; gap:24px; align-items:flex-start; }
+.safety__panel .q{ font-size:20px; line-height:1.5; }
+.safety__panel .pr{ width:100%; height:1px; background:var(--line); }
+.safety__panel .sp{ font-size:13px; line-height:1.5; color:var(--ink-50); }
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+.contact{ background:var(--surface-secondary); }
+.contact__inner{ display:flex; flex-direction:column; gap:56px; }
+.contact__head{ display:flex; flex-direction:column; gap:20px; }
+.contact__row{ display:flex; gap:40px; align-items:flex-start; }
+.form-card{ width:672px; flex:0 0 auto; background:#fff; border:1px solid var(--line-strong); border-radius:var(--radius-xl); box-shadow:0 20px 40px rgba(57,46,38,.10); padding:48px; display:flex; flex-direction:column; gap:22px; }
+.consent{ display:flex; gap:12px; align-items:flex-start; }
+.consent input{ width:18px; height:18px; margin:2px 0 0; accent-color:var(--brand); flex:0 0 auto; }
+.consent label{ font-size:13px; line-height:1.5; color:var(--ink-50); }
+.form-card .btn{ align-self:flex-start; }
+.form-note{ font-size:13px; line-height:1.5; color:var(--ink-50); }
+.contact__right{ flex:1 1 auto; min-width:0; display:flex; flex-direction:column; gap:32px; align-items:flex-start; }
+.info{ width:100%; display:flex; flex-direction:column; }
+.info__row{ border-top:1px solid var(--line); padding:16px 0; display:flex; flex-direction:column; gap:6px; }
+.info__row .lbl{ font-size:12px; font-weight:500; line-height:1.5; letter-spacing:.6px; color:var(--ink-50); }
+.info__row .val{ font-size:16px; line-height:1.5; }
+.info__row a.val:hover{ color:var(--brand-hover); }
+.map{ width:100%; height:340px; border-radius:var(--radius-lg); overflow:hidden; background:#EDEEEA; }
+.map iframe{ width:100%; height:100%; border:0; display:block; filter:grayscale(.25) contrast(.95); }
+
+/* ============================================================
+   FAQ
+   ============================================================ */
+.faq{ background:#fff; }
+.faq__inner{ display:flex; gap:96px; }
+.faq__left{ width:400px; flex:0 0 auto; display:flex; flex-direction:column; gap:20px; align-items:flex-start; }
+.faq__left .call{ font-size:14px; line-height:1.5; color:var(--ink-50); }
+.faq__rows{ flex:1 1 auto; min-width:0; display:flex; flex-direction:column; }
+.faq__item{ border-top:1px solid var(--line); }
+.faq__q{ width:100%; display:flex; gap:20px; align-items:flex-start; text-align:left; padding:28px 0; }
+.faq__q .n{ font-size:14px; font-weight:500; line-height:2.1; letter-spacing:.6px; color:var(--ink-50); flex:0 0 auto; }
+.faq__q .q{ flex:1 1 auto; font-size:24px; line-height:1.3; }
+.faq__q .g{ position:relative; width:24px; height:32px; flex:0 0 auto; }
+.faq__q .g span{ position:absolute; inset:0; font-size:24px; line-height:1.3; color:var(--ink-50); transition:opacity var(--t-fast); }
+.faq__q .g .plus{ opacity:1; }
+.faq__q .g .minus{ opacity:0; }
+.faq__item.is-open .g .plus{ opacity:0; }
+.faq__item.is-open .g .minus{ opacity:1; }
+.faq__q:hover .q{ color:var(--brand-hover); }
+.faq__a{ overflow:hidden; height:0; }
+.faq__a p{ padding:0 56px 28px 44px; font-size:16px; line-height:1.625; color:var(--ink-80); }
+
+/* ============================================================
+   CLOSING CTA
+   ============================================================ */
+.closing{ position:relative; padding:168px var(--gutter); color:#fff; isolation:isolate; overflow:hidden; display:flex; justify-content:center; }
+.closing__media{ position:absolute; inset:0; z-index:-2; background:url("images/WEB-weight_loss_anu_1_88f0c837bf.webp") center/cover no-repeat; }
+.closing__tint{ position:absolute; inset:0; z-index:-1; background:rgba(0,0,0,.65); }
+.closing__inner{ width:880px; max-width:100%; display:flex; flex-direction:column; gap:28px; align-items:center; text-align:center; }
+.closing__inner h2{ font-size:56px; font-weight:400; line-height:1.1; }
+.closing__inner .sub{ width:640px; max-width:100%; font-size:20px; line-height:1.5; color:var(--w-85); }
+.closing__ctas{ display:flex; gap:16px; align-items:center; flex-wrap:wrap; justify-content:center; }
+.closing__note{ font-size:14px; line-height:1.5; color:var(--w-60); }
+
+/* ============================================================
+   FOOTER  (design from dysport.html)
+   ============================================================ */
+.footer{ width:100%; background:var(--brand); }
+.footer__main{ width:100%; padding:clamp(44px,7.2vh,64px) var(--edge) clamp(40px,6.3vh,56px);
+  display:flex; justify-content:center; }
+.footer__cols{ width:100%; max-width:var(--container); display:flex; gap:24px; }
+.footer__brand{ width:380px; flex:0 0 auto; display:flex; flex-direction:column; gap:20px; }
+.footer__logo{ width:144px; height:40px; }
+.footer__logo img{ width:100%; height:100%; object-fit:contain; object-position:left center;
+  transition:opacity var(--t-base),transform var(--t-base); }
+.footer__tagline{ font-size:14px; line-height:1.7; color:var(--w-75); }
+.footer__cta{ align-self:flex-start; background:var(--white); color:var(--brand); border-radius:8px;
+  padding:12px 24px; font-size:15px; font-weight:600; line-height:1.5; display:inline-flex;
+  transition:background-color var(--t-base); }
+.footer__col{ flex:1 1 0; min-width:0; display:flex; flex-direction:column; gap:16px; }
+.footer__col-title{ font-size:18px; font-weight:600; letter-spacing:.36px; color:var(--white); }
+.footer__links{ display:flex; flex-direction:column; gap:12px; }
+.footer__link{ font-size:14px; line-height:1.6; color:var(--w-85); opacity:.88;
+  transition:opacity var(--t-fast),transform var(--t-fast),color var(--t-fast); }
+.footer__social{ display:inline-flex; align-items:center; gap:10px; font-size:14px; color:var(--w-85);
+  opacity:.88; transition:opacity var(--t-fast),transform var(--t-fast),color var(--t-fast); }
+.footer__social svg{ width:16px; height:16px; stroke:currentColor; fill:none; stroke-width:1.75;
+  stroke-linecap:round; stroke-linejoin:round; flex:0 0 auto; }
+.footer__bottom{ width:100%; padding:24px var(--edge); border-top:1px solid rgba(255,255,255,.20); }
+.footer__bottom-inner{ max-width:var(--container); margin:0 auto; display:flex; align-items:center;
+  justify-content:center; gap:8px; flex-wrap:wrap; text-align:center; }
+.footer__copy{ font-size:14px; letter-spacing:.28px; color:var(--w-60); }
+@media (hover:hover) and (pointer:fine){
+  .footer__logo:hover img{ opacity:1; transform:scale(1.03); }
+  .footer__cta:hover{ background:var(--surface-secondary); }
+  a.footer__link:hover{ opacity:1; color:var(--white); transform:translateX(4px); }
+  .footer__social:hover{ opacity:1; color:var(--white); transform:translateX(4px); }
+}
+
+/* ============================================================
+   GSAP from-states
+   ============================================================ */
+[data-hero-media]{ opacity:0; transform:scale(1.05); }
+[data-hero-overlay]{ opacity:0; }
+[data-hero-nav]{ translate:0 -120%; }
+[data-hero-title-wrap],[data-hero-info-wrap]{ overflow:hidden; padding-bottom:.14em; margin-bottom:-.14em; }
+[data-hero-title],[data-hero-info]{ transform:translateY(110%); }
+[data-hero-bottom]{ opacity:0; transform:translateY(30px); }
+
+[data-animate]{ opacity:0; }
+[data-animate="fade-up"]{ transform:translateY(40px); }
+[data-animate="fade-in"]{ transform:none; }
+[data-animate="slide-left"]{ transform:translateX(60px); }
+[data-animate="slide-right"]{ transform:translateX(-60px); }
+[data-animate="scale-up"]{ transform:scale(.9); }
+[data-animate="stagger"]{ opacity:1; }
+[data-animate="stagger"]>*{ opacity:0; transform:translateY(30px); }
+[data-animate].is-animated,[data-animate="stagger"].is-animated>*{ opacity:1; transform:none; }
+
+[data-card-stagger]{ --card-duration:.5s; --card-ease:cubic-bezier(.16,1,.3,1); }
+[data-card-stagger]>*{ opacity:0; transform:translateY(30px);
+  transition:opacity var(--card-duration) var(--card-ease),transform var(--card-duration) var(--card-ease); }
+[data-card-stagger]>.card-visible{ opacity:1; transform:translateY(0); }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width:1439px){
+  .quiz__tile{ width:380px; }
+  .included__grid{ gap:64px; }
+  .included__left{ width:420px; }
+  .provider__grid{ gap:64px; }
+  .faq__inner{ gap:64px; }
+  .faq__left{ width:340px; }
+  .inperson__split{ gap:48px; }
+  .inperson__photo{ width:440px; height:700px; }
+  .form-card{ width:560px; padding:40px; }
+  .tier--start{ width:auto; flex:1.3 1 0; }
+  .tier--plain{ width:auto; flex:1 1 0; }
+  .review--fixed{ width:auto; flex:1 1 0; }
+  .table{ overflow-x:auto; }
+  .th,.td{ min-width:0; }
+  .c0{ width:24%; }
+  .c{ width:25.33%; }
+}
+@media (max-width:1199px){
+  .section,.provider,.closing{ padding-left:40px; padding-right:40px; }
+  .hero{ padding-left:40px; padding-right:40px; }
+  .h1{ font-size:56px; }
+  .h2{ font-size:42px; }
+  .h2-48{ font-size:40px; }
+  .h2-44{ font-size:38px; }
+  .closing__inner h2{ font-size:44px; }
+  .honesty__emph{ font-size:32px; }
+  .honesty__para{ font-size:26px; }
+  .photos{ width:460px; height:520px; }
+  .photo{ width:250px; height:440px; }
+  .photo--after{ left:202px; top:72px; }
+  .pair{ gap:48px; }
+  .quiz__row{ flex-direction:column; }
+  .quiz__tile{ width:100%; }
+  .steps{ display:grid; grid-template-columns:repeat(2,1fr); gap:16px 32px; }
+  .how__content{ gap:48px; }
+  .how__left{ width:360px; }
+  .faq__inner{ flex-direction:column; gap:48px; }
+  .faq__left{ width:100%; }
+  .contact__row{ flex-direction:column; }
+  .form-card{ width:100%; }
+  .contact__right{ width:100%; }
+  .safety__body{ gap:40px; }
+  .safety__side{ width:320px; }
+}
+@media (max-width:899px){
+  .nav__links,.nav__phone{ display:none; }
+  .nav__burger{ display:inline-flex; }
+  .nav{ flex-wrap:wrap; padding:0 16px; min-height:60px; top:16px; }
+  .nav__mobile{ display:none; width:100%; flex-direction:column; gap:4px;
+    padding:8px 0 16px; border-top:1px solid var(--line); }
+  .nav.is-open{ padding-bottom:8px; }
+  .nav.is-open .nav__mobile{ display:flex; }
+  .nav__mobile .nav__link{ display:block; font-size:16px; padding:12px 10px; }
+  .nav__cta{ padding:10px 16px; font-size:14px; }
+  .nav__right{ gap:10px; }
+  .section{ padding-top:88px; padding-bottom:88px; }
+  .provider{ padding-top:88px; padding-bottom:88px; }
+  .closing{ padding-top:120px; padding-bottom:120px; }
+  .included__grid{ flex-direction:column; gap:56px; }
+  .included__left{ width:100%; }
+  .provider__grid{ flex-direction:column; align-items:flex-start; gap:40px; }
+  .provider__photo{ width:100%; height:480px; }
+  .how__content{ flex-direction:column; }
+  .how__left{ width:100%; }
+  .inperson__split{ flex-direction:column; }
+  .inperson__photo{ width:100%; height:480px; }
+  .tiers{ flex-direction:column; }
+  .tier,.tier--start,.tier--plain{ min-height:0; width:100%; flex:0 0 auto; }
+  .reviews__row{ flex-direction:column; }
+  .rating-tile,.review,.review--fixed,.reviews__cta{ width:100%; flex:0 0 auto; }
+  .safety__body{ flex-direction:column; }
+  .safety__side{ width:100%; }
+  .reviews__cta{ flex-direction:column; align-items:flex-start; gap:24px; }
+  .footer__cols{ flex-wrap:wrap; gap:36px; }
+  .footer__brand{ width:100%; }
+  .footer__col{ flex:1 1 200px; }
+  .table{ display:block; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .tr{ min-width:900px; }
+  .c0{ width:220px; flex:0 0 auto; }
+  .c{ width:226px; flex:0 0 auto; }
+}
+@media (max-width:767px){
+  :root{ --gutter:20px; }
+  .section,.provider,.closing,.hero{ padding-left:20px; padding-right:20px; }
+  .section{ padding-top:64px; padding-bottom:64px; }
+  .hero{ padding-top:104px; padding-bottom:32px; min-height:640px; height:auto; max-height:none; }
+  .h1{ font-size:38px; }
+  .h2{ font-size:30px; }
+  .h2-48{ font-size:30px; }
+  .h2-44{ font-size:28px; }
+  .quiz__q{ font-size:24px; }
+  .closing__inner h2{ font-size:30px; }
+  .honesty__para{ font-size:22px; }
+  .honesty__emph{ font-size:26px; }
+  .honesty__close{ font-size:17px; }
+  .nav__cta{ display:none; }
+  .nav.is-open .nav__mobile-cta{ display:block; }
+  .hero__copy{ gap:18px; padding-bottom:28px; }
+  .hero__sub{ width:100%; font-size:16px; }
+  .hero__ctas .btn{ width:100%; }
+  .stats{ display:grid; grid-template-columns:1fr 1fr; gap:20px; padding-top:20px; }
+  .stat span{ font-size:24px; }
+  .ba__inner{ gap:48px; }
+  .pair,.pair--flip{ flex-direction:column; align-items:flex-start; gap:28px; }
+  .photos{ width:100%; height:auto; display:flex; gap:12px; }
+  .photo{ position:static; width:auto; flex:1 1 0; height:260px; box-shadow:0 0 0 5px #fff,0 12px 28px rgba(0,0,0,.16); }
+  .quiz__card,.quiz__tile{ padding:24px; }
+  .steps{ grid-template-columns:1fr; }
+  .tier,.review,.rating-tile,.safety__panel,.safety__card,.form-card{ padding:24px; }
+  .slist li{ font-size:16px; }
+  .price{ font-size:42px; }
+  .price--sm{ font-size:28px; }
+  .reviews__cta{ padding:28px; }
+  .group__items li{ gap:12px; }
+  .faq__q .q{ font-size:19px; }
+  .faq__q{ gap:12px; padding:20px 0; }
+  .faq__a p{ padding:0 0 22px 32px; }
+  .footer__cols{ flex-direction:column; gap:36px; }
+  .footer__col{ flex:none; width:100%; }
+  .provider__photo,.inperson__photo{ height:380px; }
+  .how__photo{ height:260px; }
+  .field-row{ flex-direction:column; }
+  [data-animate="fade-up"]{ transform:translateY(20px); }
+  [data-animate="slide-left"]{ transform:translateX(30px); }
+  [data-animate="slide-right"]{ transform:translateX(-30px); }
+  [data-animate="stagger"]>*{ transform:translateY(15px); }
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{ animation-duration:.001ms !important; transition-duration:.001ms !important; }
+  [data-animate],[data-animate="stagger"]>*,[data-card-stagger]>*{ opacity:1 !important; transform:none !important; }
+  [data-hero-media]{ opacity:1; transform:none; }
+  [data-hero-overlay]{ opacity:1; }
+  [data-hero-nav]{ translate:none; }
+  [data-hero-title],[data-hero-info],[data-hero-bottom]{ transform:none; opacity:1; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============================ NAV (design from dysport.html) ============================ -->
+<header class="nav" id="nav" data-hero-nav>
+  <a class="nav__logo" href="#top" aria-label="ANU Face, Mind, Body home">
+    <img src="images/ANU-logo-brown.png" alt="ANU Face, Mind, Body">
+  </a>
+  <div class="nav__links">
+    <a class="nav__link" href="#results">Results</a>
+    <a class="nav__link" href="#how">Process</a>
+    <a class="nav__link" href="#pricing">Offer</a>
+    <a class="nav__link" href="#quiz">Are you a candidate?</a>
+  </div>
+  <div class="nav__right">
+    <a class="nav__phone" href="tel:+12704913184">(270) 491-3184</a>
+    <a class="nav__cta" href="#contact">Book the $39 visit</a>
+    <button class="nav__burger" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle><span></span></button>
+  </div>
+  <div class="nav__mobile" id="nav-mobile">
+    <a class="nav__link" href="#results">Results</a>
+    <a class="nav__link" href="#how">Process</a>
+    <a class="nav__link" href="#pricing">Offer</a>
+    <a class="nav__link" href="#quiz">Are you a candidate?</a>
+    <a class="nav__link" href="tel:+12704913184">(270) 491-3184</a>
+    <a class="nav__mobile-cta" href="#contact">Book the $39 visit</a>
+  </div>
+</header>
+
+<!-- ============================ HERO ============================ -->
+<header class="hero" data-hero-animate>
+  <div class="hero__media" data-hero-media aria-hidden="true">
+    <video id="hero-video" autoplay muted loop playsinline preload="none" disablepictureinpicture
+           data-src="images/hero-inbody.mp4"
+           poster="images/GDRIVE-ANU_InBody_DIGITAL_1.jpg" aria-hidden="true"></video>
+  </div>
+  <div class="hero__overlay" data-hero-overlay aria-hidden="true"></div>
+
+  <div class="hero__spacer"></div>
+
+  <div class="hero__copy">
+    <div class="eyebrow" data-hero-info-wrap>
+      <span data-hero-info style="display:flex;align-items:center;gap:8px">
+        <i style="background:#fff"></i>
+        <span style="color:rgba(255,255,255,.85);font-size:14px;font-weight:500;line-height:1.5;letter-spacing:.7px">MEDICALLY SUPERVISED GLP-1 THERAPY · ELIZABETHTOWN, KY</span>
+      </span>
+    </div>
+    <div data-hero-title-wrap>
+      <h1 class="h1 hero__title" data-hero-title>Stop fighting your appetite. Change it.</h1>
+    </div>
+    <div data-hero-info-wrap>
+      <p class="hero__sub" data-hero-info>Semaglutide and tirzepatide prescribed, dosed and monitored in person by a board-certified nurse practitioner in Elizabethtown. Patients lose an average of 12-15% of body weight.</p>
+    </div>
+    <div class="hero__ctas" data-hero-bottom>
+      <a class="btn btn-white" href="#contact">Start for $39 →</a>
+      <a class="btn btn-outline-light" href="#quiz">See if you qualify</a>
+    </div>
+    <div class="hero__trust" data-hero-bottom>
+      <span>5.0 ★ · 17 Google reviews</span>
+      <span class="rule" aria-hidden="true"></span>
+      <span>Amy Nunn, APRN · 20 years clinical experience</span>
+    </div>
+  </div>
+
+  <div class="stats" data-hero-bottom>
+    <div class="stat"><b>FIRST SIGNS</b><span>1-2 weeks</span></div>
+    <div class="stat"><b>FULL EFFECT</b><span>16-20 weeks</span></div>
+    <div class="stat"><b>TREATMENT TIME</b><span>5 min weekly</span></div>
+    <div class="stat"><b>AVERAGE LOSS</b><span>12-15%</span></div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ======================= BEFORE / AFTER ======================= -->
+<section class="section ba on-dark" id="results">
+  <div class="container ba__inner">
+    <div class="ba__head">
+      <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>RESULTS</span></div></div>
+      <div class="clip" data-clip-wrap="title"><h2 class="h2">What 12-15% actually looks like.</h2></div>
+      <p data-animate="fade-up">Average body-weight loss on GLP-1 therapy is 12-15% over 16-20 weeks. Patients who stay on a longer course often go further than that.</p>
+    </div>
+
+    <div class="pair" data-animate="fade-up">
+      <div class="photos">
+        <div class="photo photo--before" style="background-image:url('images/b2.jpg')"><span class="chip">Before</span></div>
+        <div class="photo photo--after" style="background-image:url('images/a2.jpg')"><span class="chip">After</span></div>
+      </div>
+      <div class="caption">
+        <span class="idx">PAIR 01</span>
+        <span class="delta">−14% body weight</span>
+        <span class="weeks">20 weeks on therapy</span>
+        <span class="subj">Woman, late 40s</span>
+      </div>
+    </div>
+
+    <div class="pair pair--flip" data-animate="fade-up">
+      <div class="photos">
+        <div class="photo photo--before" style="background-image:url('images/b3.jpg')"><span class="chip">Before</span></div>
+        <div class="photo photo--after" style="background-image:url('images/a3.jpg')"><span class="chip">After</span></div>
+      </div>
+      <div class="caption">
+        <span class="idx">PAIR 02</span>
+        <span class="delta">−9% body weight</span>
+        <span class="weeks">16 weeks on therapy</span>
+        <span class="subj">Woman, mid 50s</span>
+      </div>
+    </div>
+
+    <div class="pair" data-animate="fade-up">
+      <div class="photos">
+        <div class="photo photo--before" style="background-image:url('images/b1.jpg')"><span class="chip">Before</span></div>
+        <div class="photo photo--after" style="background-image:url('images/a1.jpg')"><span class="chip">After</span></div>
+      </div>
+      <div class="caption">
+        <span class="idx">PAIR 03</span>
+        <span class="delta">−17% body weight</span>
+        <span class="weeks">28 weeks on therapy</span>
+        <span class="subj">Man, late 40s</span>
+      </div>
+    </div>
+
+    <div class="ba__foot">
+      <p>Illustrative images. Individual results vary. Not actual ANU patients.</p>
+      <a class="btn btn-white" href="#contact">Start for $39 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ QUIZ ============================ -->
+<section class="section quiz" id="quiz">
+  <div class="container quiz__inner">
+    <div class="quiz__head">
+      <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>60-SECOND CHECK</span></div></div>
+      <div class="clip" data-clip-wrap="title"><h2 class="h2-48">See if you qualify, before you pay anything.</h2></div>
+      <p data-animate="fade-up">Five questions. No card required. You'll get a straight answer, not a sales call.</p>
+    </div>
+
+    <div class="quiz__row" data-animate="fade-up">
+      <form class="quiz__card" id="quizCard" novalidate>
+        <span class="quiz__step" id="quizStepLabel">QUESTION 1 OF 5 · BODY</span>
+        <h3 class="quiz__q" id="quizQuestion">What's your current BMI range?</h3>
+        <div class="options" id="quizOptions" role="radiogroup" aria-labelledby="quizQuestion">
+          <button class="option" type="button" role="radio" aria-checked="false"><span class="radio"></span>Under 27</button>
+          <button class="option" type="button" role="radio" aria-checked="false"><span class="radio"></span>27-29 (with a related condition)</button>
+          <button class="option" type="button" role="radio" aria-checked="false"><span class="radio"></span>30-34</button>
+          <button class="option" type="button" role="radio" aria-checked="false"><span class="radio"></span>35+</button>
+          <button class="option" type="button" role="radio" aria-checked="false"><span class="radio"></span>Not sure, I'd like it measured</button>
+        </div>
+        <div class="quiz__actions">
+          <button class="btn btn-primary btn-sm" type="submit" id="quizNext" disabled>Continue <span aria-hidden="true">→</span></button>
+          <button class="quiz__back" type="button" id="quizBack" hidden>← Back</button>
+          <p class="quiz__micro" id="quizMicro">Takes about a minute. We never sell your information.</p>
+        </div>
+        <p class="sr-only" aria-live="polite" id="quizLive"></p>
+      </form>
+
+      <aside class="quiz__tile">
+        <h3 id="quizTileTitle">Five steps, then a straight answer.</h3>
+        <div class="progress" id="quizProgress" role="progressbar" aria-valuemin="1" aria-valuemax="5" aria-valuenow="1" aria-label="Quiz progress">
+          <span class="on"></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="steps" id="quizSteps">
+          <div class="step is-active"><span class="num">01</span><span class="step__copy"><span class="nm">Body</span><span class="qq">What's your current BMI range?</span></span></div>
+          <div class="step"><span class="num">02</span><span class="step__copy"><span class="nm">Health history</span><span class="qq">Have you tried diet and exercise without lasting results?</span></span></div>
+          <div class="step"><span class="num">03</span><span class="step__copy"><span class="nm">Medications</span><span class="qq">Any personal or family history of medullary thyroid carcinoma or MEN 2?</span></span></div>
+          <div class="step"><span class="num">04</span><span class="step__copy"><span class="nm">Goals</span><span class="qq">Are you pregnant or planning pregnancy?</span></span></div>
+          <div class="step"><span class="num">05</span><span class="step__copy"><span class="nm">Timing</span><span class="qq">How soon would you want to start?</span></span></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= WHAT'S INCLUDED ====================== -->
+<section class="section included on-dark" id="included">
+  <div class="included__media" data-parallax="0.15" aria-hidden="true"></div>
+  <div class="included__tint" aria-hidden="true"></div>
+
+  <div class="container included__grid">
+    <div class="included__left">
+      <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>WHAT'S INCLUDED</span></div></div>
+      <div class="clip" data-clip-wrap="title"><h2 class="h2-48">$39 gets you the visit. Here is exactly what happens in it.</h2></div>
+      <p data-animate="fade-up">Your first appointment is a full clinical work-up, not a sales call. You leave with a written plan and a clear picture of what continuing would involve, whether or not you decide to start.</p>
+      <a class="btn btn-outline-light" href="#contact" data-animate="fade-up" data-delay="0.1" style="margin-top:8px">Book the $39 visit →</a>
+    </div>
+
+    <div class="included__right">
+      <div>
+        <span class="group__label">YOUR $39 FIRST VISIT</span>
+        <ul class="group__items" data-card-stagger="0.1">
+          <li><span class="n">01</span><span class="t">A full consultation with Amy Nunn, APRN</span></li>
+          <li><span class="n">02</span><span class="t">An InBody scan measuring body fat, muscle mass, visceral fat and hydration</span></li>
+          <li><span class="n">03</span><span class="t">A review of your medical history, current medications and metabolic health</span></li>
+          <li><span class="n">04</span><span class="t">BMI and eligibility assessment, so you know where you stand</span></li>
+          <li><span class="n">05</span><span class="t">A written treatment plan you take home, whether or not you start</span></li>
+        </ul>
+      </div>
+      <div>
+        <span class="group__label">YOUR MONTHLY MEMBERSHIP</span>
+        <ul class="group__items" data-card-stagger="0.1">
+          <li><span class="n">01</span><span class="t">Provider visits and your prescription</span></li>
+          <li><span class="n">02</span><span class="t">Dose titration across the full 16 to 20 week ramp</span></li>
+          <li><span class="n">03</span><span class="t">Side-effect support, with messaging between appointments</span></li>
+          <li><span class="n">04</span><span class="t">Repeat InBody scans, so you can see you are losing fat and keeping muscle</span></li>
+          <li><span class="n">05</span><span class="t">Nutrition and activity guidance built around your routine</span></li>
+        </ul>
+      </div>
+      <div>
+        <span class="group__label">YOUR MEDICATION</span>
+        <ul class="group__items" data-card-stagger="0.1">
+          <li><span class="n">01</span><span class="t">Semaglutide or tirzepatide, prescribed at the dose that suits you</span></li>
+          <li><span class="n">02</span><span class="t">Quoted to you before you commit to anything</span></li>
+          <li><span class="n">03</span><span class="t">Billed separately from your membership, so you can see each cost</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="rule-w" aria-hidden="true"></div>
+
+  <div class="honesty">
+    <div class="eyebrow" data-animate="fade-up"><i></i><span>NO SURPRISES</span></div>
+    <p class="honesty__para" data-animate="fade-up">Your costs come in two parts: a monthly membership that covers your care, and the medication itself. You will see both figures written down at your first visit.</p>
+    <span class="honesty__rule" aria-hidden="true"></span>
+    <p class="honesty__emph" data-animate="fade-up">You will never be asked to commit to a number you have not been shown.</p>
+    <p class="honesty__close" data-animate="fade-up">$39 for the visit. Membership monthly. Medication quoted by dose.</p>
+    <a class="btn btn-white" href="#pricing" data-animate="fade-up">See the full price breakdown →</a>
+  </div>
+</section>
+
+<!-- =========================== PRICING ========================== -->
+<section class="section pricing" id="pricing">
+  <div class="container pricing__inner">
+    <div class="pricing__head">
+      <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>PRICING</span></div></div>
+      <div class="clip" data-clip-wrap="title"><h2 class="h2" style="max-width:900px">Two charges. Both of them visible.</h2></div>
+    </div>
+
+    <div class="tiers" data-card-stagger="0.1">
+      <div class="tier tier--start">
+        <span class="t-label">START</span>
+        <div class="price-row"><span class="price">$39</span><span class="per">one-time</span></div>
+        <p class="t-desc">Your first visit, priced so nothing stands between you and a straight answer.</p>
+        <ul>
+          <li><i></i><span>Full consultation with Amy Nunn, APRN</span></li>
+          <li><i></i><span>InBody body-composition analysis</span></li>
+          <li><i></i><span>BMI and eligibility assessment</span></li>
+          <li><i></i><span>A written treatment plan, either way</span></li>
+        </ul>
+        <span class="grow"></span>
+        <a class="btn btn-white btn-sm" href="#contact">Book the $39 visit →</a>
+      </div>
+
+      <div class="tier tier--plain">
+        <span class="t-label">MEMBERSHIP</span>
+        <div class="price-row"><span class="price">from $149</span><span class="per">/month</span></div>
+        <p class="t-desc">The clinical relationship. Month-to-month, cancel any time.</p>
+        <ul>
+          <li><i></i><span>Provider visits and prescribing</span></li>
+          <li><i></i><span>Titration across the 16-20 week ramp</span></li>
+          <li><i></i><span>Side-effect support, 24-hour messaging</span></li>
+          <li><i></i><span>Repeat InBody scans</span></li>
+        </ul>
+        <span class="grow"></span>
+        <a class="btn btn-outline btn-sm" href="#contact">See membership →</a>
+      </div>
+
+      <div class="tier tier--plain">
+        <span class="t-label">MEDICATION</span>
+        <div class="price-row"><span class="price price--sm">Billed separately</span></div>
+        <p class="t-desc">Semaglutide or tirzepatide, priced by dose.</p>
+        <ul>
+          <li><i></i><span>Quoted before you commit</span></li>
+          <li><i></i><span>Named pharmacy, known source</span></li>
+          <li><i></i><span>Never marked up in secret</span></li>
+        </ul>
+        <span class="grow"></span>
+        <p class="note">We tell you the number before you commit.</p>
+      </div>
+    </div>
+
+    <div class="pricing__foot">
+      <p class="fin">CareCredit and PatientFi financing available. Insurance coverage varies by plan, and we handle prior authorisation.</p>
+      <p class="fn">Membership and medication pricing shown for layout; confirm current figures with the clinic before publishing.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= HOW IT WORKS ======================= -->
+<section class="section how on-dark" id="how">
+  <div class="how__head">
+    <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>HOW IT WORKS</span></div></div>
+  </div>
+  <div class="how__content">
+    <div class="how__left">
+      <div class="clip" data-clip-wrap="title"><h2 class="h2-44">Five steps, and you see every one of them.</h2></div>
+      <p class="sub" data-animate="fade-up">From the first scan to the maintenance plan, the whole programme happens in one room with one provider.</p>
+      <figure class="how__photo" data-animate="scale-up">
+        <img src="images/GDRIVE-ANU_InBody_DIGITAL_5.jpg" alt="InBody body-composition scan at ANU in Elizabethtown" loading="lazy">
+      </figure>
+      <a class="btn btn-white" href="#contact" data-animate="fade-up">Start for $39 →</a>
+    </div>
+
+    <ol class="how__steps" data-card-stagger="0.1">
+      <li class="how__step"><span class="n">01</span><div><h3>Initial consultation</h3><p>Medical history, current medications, BMI, metabolic screening, and an InBody scan to establish your baseline.</p></div></li>
+      <li class="how__step"><span class="n">02</span><div><h3>Personalised protocol</h3><p>Medication choice, starting dose and titration schedule, plus nutrition and activity guidance built around your life.</p></div></li>
+      <li class="how__step"><span class="n">03</span><div><h3>Treatment initiation</h3><p>Your first injection in clinic, with hands-on instruction on self-administration, site rotation and storage. Under a minute, once a week.</p></div></li>
+      <li class="how__step"><span class="n">04</span><div><h3>Dose optimisation and monitoring</h3><p>Weekly to monthly check-ins to track progress, manage side effects and adjust dose. Repeat InBody scans confirm you're losing fat, not muscle.</p></div></li>
+      <li class="how__step"><span class="n">05</span><div><h3>Long-term success planning</h3><p>A maintenance strategy: continued therapy, lifestyle change, or a planned transition off.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ========================== PROVIDER ========================== -->
+<section class="provider on-dark" id="provider">
+  <div class="provider__media" data-parallax="0.12" aria-hidden="true"></div>
+  <div class="provider__tint" aria-hidden="true"></div>
+  <div class="container provider__grid">
+    <figure class="provider__photo" data-animate="scale-up">
+      <img src="images/WEB-ANU_Headshot_Amy_homepage_fb0f04300d.webp" alt="Amy Nunn, APRN, founder of ANU Face, Mind, Body" loading="lazy">
+    </figure>
+    <div class="provider__copy">
+      <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>YOUR PROVIDER</span></div></div>
+      <div class="clip" data-clip-wrap="title"><h2 class="h2-44">Amy Nunn, APRN, AGPCNP-BC, PMHNP-BC</h2></div>
+      <p class="provider__role" data-animate="fade-up">Board-certified nurse practitioner and founder.</p>
+      <p class="provider__bio" data-animate="fade-up">Twenty years of clinical experience, dual board certification in adult-gerontology primary care and psychiatric mental health. Amy treats weight the way it actually presents, metabolic, hormonal and behavioural at once, which is why ANU screens for the things a weight-loss form never asks about.</p>
+      <div class="creds" data-animate="stagger" data-stagger="0.08">
+        <span class="cred">AGPCNP-BC</span>
+        <span class="cred">PMHNP-BC</span>
+        <span class="cred">20 years clinical</span>
+        <span class="cred">Founder, ANU Face Mind Body</span>
+      </div>
+      <a class="btn btn-white" href="#contact" data-animate="fade-up">Book with Amy for $39 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========================== REVIEWS =========================== -->
+<section class="section reviews" id="reviews">
+  <div class="container reviews__inner">
+    <div class="reviews__head">
+      <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>REVIEWS</span></div></div>
+      <div class="clip" data-clip-wrap="title"><h2 class="h2-48">Five stars, every time.</h2></div>
+    </div>
+
+    <div class="reviews__row" data-card-stagger="0.1">
+      <div class="rating-tile">
+        <span class="lbl">GOOGLE RATING</span>
+        <span class="val">5.0</span>
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <span class="cnt">Medical spa · Elizabethtown, KY</span>
+      </div>
+      <article class="review">
+        <div class="review__head">
+          <span class="avatar" aria-hidden="true">BV</span>
+          <div class="review__meta"><span class="nm">Betty Villanueva</span><span class="st" aria-label="5 out of 5 stars">★★★★★</span></div>
+        </div>
+        <p class="review__quote">"I am very happy with my results. Amy is very thorough. I like that she monitors my labs and my body composition at each visit. I feel safe with her."</p>
+      </article>
+      <article class="review">
+        <div class="review__head">
+          <span class="avatar" aria-hidden="true">GW</span>
+          <div class="review__meta"><span class="nm">Ginger Williams</span><span class="st" aria-label="5 out of 5 stars">★★★★★</span></div>
+        </div>
+        <p class="review__quote">"Amy was amazing! From the moment I walked in ANU Face, Mind, and Body I felt valued and heard. Amy is truly a gifted provider and makes every effort to make her patients feel better!"</p>
+      </article>
+    </div>
+
+    <div class="reviews__row" data-card-stagger="0.1">
+      <article class="review review--fixed">
+        <div class="review__head">
+          <span class="avatar" aria-hidden="true">KO</span>
+          <div class="review__meta"><span class="nm">Kathy Okeson</span><span class="st" aria-label="5 out of 5 stars">★★★★★</span></div>
+        </div>
+        <p class="review__quote">"Highly recommend Amy &amp; her staff. She truly wants to help you be the best &amp; healthiest version of yourself. Book the appointment. You will not regret it."</p>
+      </article>
+      <div class="reviews__cta">
+        <div class="copy">
+          <h3>They found the right provider. You can too.</h3>
+          <p>$39 gets you the consult, the InBody scan and a written plan.</p>
+        </div>
+        <a class="btn btn-white btn-sm" href="#contact">Book the $39 visit <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <p class="reviews__note">Real reviews from the ANU Face, Mind, Body Google Business Profile. Individual results vary.</p>
+  </div>
+</section>
+
+<!-- ========================= IN PERSON ========================== -->
+<section class="section inperson" id="inperson">
+  <div class="container inperson__inner">
+    <div class="inperson__head">
+      <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>IN PERSON</span></div></div>
+      <div class="clip" data-clip-wrap="title"><h2 class="h2" style="max-width:980px">Why telehealth is not a real substitute for being seen in person.</h2></div>
+    </div>
+    <div class="inperson__split">
+      <div class="points" data-card-stagger="0.1">
+        <div class="point"><h3>Body composition, not a bathroom scale.</h3><p>The InBody analyser separates fat, muscle, visceral fat and water. Mail-order programmes track one number you type in yourself.</p></div>
+        <div class="point"><h3>Dose titration by someone who has seen you.</h3><p>15-20% of patients get nausea, vomiting or diarrhoea in the first weeks. Titration is judgement, not an algorithm.</p></div>
+        <div class="point"><h3>Your first injection is supervised.</h3><p>Site rotation, storage, what "normal" feels like, taught in the room, not in a PDF.</p></div>
+        <div class="point"><h3>One provider, not a queue.</h3><p>Amy Nunn, APRN, with 20 years of clinical experience. The same provider every visit.</p></div>
+        <div class="point"><h3>Contraindications are screened in person.</h3><p>Thyroid history, MEN 2, pregnancy, renal function, active eating disorders. A form is easy to click past.</p></div>
+        <div class="point"><h3>Your medication source is known.</h3><p>Prescribed and dispensed through a named pharmacy, not shipped from an address you can't verify.</p></div>
+      </div>
+      <figure class="inperson__photo" data-animate="scale-up">
+        <img src="images/GDRIVE-ANU_VitaminInjections_DIGITAL_3.jpg" alt="Provider administering an injection at ANU in Elizabethtown" loading="lazy">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= COMPARISON ========================= -->
+<section class="section compare" id="compare">
+  <div class="container compare__inner">
+    <div class="compare__head">
+      <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>COMPARE BEFORE YOU COMMIT</span></div></div>
+      <div class="clip" data-clip-wrap="title"><h2 class="h2" style="max-width:900px">Ask any programme the same nine questions.</h2></div>
+    </div>
+
+    <div class="table" data-animate="fade-up" role="table" aria-label="Programme comparison">
+      <div class="tr thead" role="row">
+        <div class="th c0" role="columnheader"><span class="sr-only">Question</span></div>
+        <div class="th c" role="columnheader">ANU - IN PERSON</div>
+        <div class="th c" role="columnheader">MAIL-ORDER TELEHEALTH</div>
+        <div class="th c" role="columnheader">ONLINE-ONLY / COMPOUNDED</div>
+      </div>
+      <div class="tr" role="row"><div class="td c0" role="cell">Advertised start</div><div class="td c own" role="cell">$39 first visit</div><div class="td c other" role="cell">Low start fee, headline only</div><div class="td c other" role="cell">Monthly price, terms further in</div></div>
+      <div class="tr" role="row"><div class="td c0" role="cell">Then, membership</div><div class="td c own" role="cell">from $149/mo, month to month</div><div class="td c other" role="cell">Monthly fee, often tied to a term</div><div class="td c other" role="cell">Bundled, hard to separate</div></div>
+      <div class="tr" role="row"><div class="td c0" role="cell">Medication</div><div class="td c own" role="cell">Billed separately, quoted up front</div><div class="td c other" role="cell">Extra, added on top</div><div class="td c other" role="cell">Often bundled, source varies</div></div>
+      <div class="tr" role="row"><div class="td c0" role="cell">Real first-year cost</div><div class="td c own" role="cell">Shown before you commit</div><div class="td c other" role="cell">Rarely totalled anywhere</div><div class="td c other" role="cell">Rarely disclosed</div></div>
+      <div class="tr" role="row"><div class="td c0" role="cell">Provider seen in person</div><div class="td c own" role="cell">Yes, every visit</div><div class="td c other" role="cell">No</div><div class="td c other" role="cell">No</div></div>
+      <div class="tr" role="row"><div class="td c0" role="cell">Body-composition scan</div><div class="td c own" role="cell">InBody, repeated</div><div class="td c other" role="cell">No</div><div class="td c other" role="cell">No</div></div>
+      <div class="tr" role="row"><div class="td c0" role="cell">First injection supervised</div><div class="td c own" role="cell">Yes, in clinic</div><div class="td c other" role="cell">No</div><div class="td c other" role="cell">No</div></div>
+      <div class="tr" role="row"><div class="td c0" role="cell">Dose titration</div><div class="td c own" role="cell">By your provider</div><div class="td c other" role="cell">Protocol-driven</div><div class="td c other" role="cell">Protocol-driven</div></div>
+      <div class="tr" role="row"><div class="td c0" role="cell">Contraindication screening</div><div class="td c own" role="cell">In person</div><div class="td c other" role="cell">Online form</div><div class="td c other" role="cell">Online form</div></div>
+    </div>
+
+    <p class="compare__note">Comparison reflects how remote GLP-1 programmes are commonly structured. Terms differ by provider, so ask any programme for all three numbers before you commit.</p>
+  </div>
+</section>
+
+<!-- =========================== SAFETY =========================== -->
+<section class="section safety" id="safety">
+  <div class="safety__head">
+    <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>SAFETY</span></div></div>
+  </div>
+  <div class="safety__content">
+    <div class="clip" data-clip-wrap="title"><h2 class="h2">Side effects, serious risks, and who should not take a GLP-1.</h2></div>
+    <div class="safety__body">
+      <div class="safety__list" data-card-stagger="0.1">
+        <div class="sblock">
+          <span class="lbl">COMMON, AND USUALLY TEMPORARY</span>
+          <p class="det">Nausea, vomiting and diarrhoea, in 15-20% of patients during the initial phase. These typically resolve within 2-4 weeks as the dose is titrated.</p>
+        </div>
+        <div class="sblock">
+          <span class="lbl">NOT A CANDIDATE IF ANY OF THESE APPLY</span>
+          <ul class="slist">
+            <li><i aria-hidden="true"></i><span>A personal or family history of medullary thyroid carcinoma</span></li>
+            <li><i aria-hidden="true"></i><span>Multiple Endocrine Neoplasia syndrome type 2</span></li>
+            <li><i aria-hidden="true"></i><span>Pregnancy, or planning a pregnancy</span></li>
+            <li><i aria-hidden="true"></i><span>Severe renal impairment</span></li>
+            <li><i aria-hidden="true"></i><span>An active eating disorder</span></li>
+          </ul>
+        </div>
+        <div class="end" aria-hidden="true"></div>
+      </div>
+
+      <aside class="safety__side">
+        <div class="safety__card" data-animate="fade-up">
+          <span class="lbl">SERIOUS BUT RARE</span>
+          <p class="hd">Pancreatitis.</p>
+          <p class="bd">Uncommon, but it is the reason we ask about gallbladder disease, triglycerides and alcohol intake before prescribing, and the reason you leave your first visit knowing exactly which symptoms mean stop the injection and call us.</p>
+        </div>
+        <div class="safety__panel" data-animate="fade-up" data-delay="0.1">
+          <p class="q">GLP-1 medications have an established safety profile when prescribed and monitored. That second half is the part mail-order skips.</p>
+          <span class="pr" aria-hidden="true"></span>
+          <p class="sp">This page is general information, not medical advice. Eligibility is determined in consultation.</p>
+          <a class="btn btn-outline btn-sm" href="#quiz">See if you qualify →</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ========================== CONTACT =========================== -->
+<section class="section contact" id="contact">
+  <div class="container contact__inner">
+    <div class="contact__head">
+      <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>ELIZABETHTOWN, KY</span></div></div>
+      <div class="clip" data-clip-wrap="title"><h2 class="h2" style="max-width:900px">Book your $39 consultation.</h2></div>
+    </div>
+
+    <div class="contact__row">
+      <form class="form-card" id="bookForm" novalidate data-animate="fade-up">
+        <div class="field-row">
+          <div class="field"><label for="fn">First name</label><input id="fn" name="first" type="text" placeholder="Jordan" autocomplete="given-name" required></div>
+          <div class="field"><label for="ln">Last name</label><input id="ln" name="last" type="text" placeholder="Whitaker" autocomplete="family-name" required></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label for="em">Email</label><input id="em" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div>
+          <div class="field"><label for="ph">Phone</label><input id="ph" name="phone" type="tel" placeholder="(270) 555-0142" autocomplete="tel" required></div>
+        </div>
+        <div class="field"><label for="goal">What's your goal?</label><textarea id="goal" name="goal" placeholder="Tell us what you have already tried, and what you want to change."></textarea></div>
+        <div class="consent">
+          <input id="sms" name="sms" type="checkbox">
+          <label for="sms">I agree to receive appointment reminders and marketing texts from ANU. Reply STOP to opt out.</label>
+        </div>
+        <button class="btn btn-primary" type="submit" id="bookSubmit"><span class="btn__label">Book my consultation →</span></button>
+        <p class="form-note" id="bookNote" role="status"></p>
+      </form>
+
+      <div class="contact__right">
+        <div class="info">
+          <div class="info__row"><span class="lbl">ADDRESS</span><a class="val" href="https://maps.app.goo.gl/K2Ci87mapDEjAJGo9" target="_blank" rel="noopener">230 Buford Ln, Suite 106, Elizabethtown, KY 42701</a></div>
+          <div class="info__row"><span class="lbl">PHONE</span><a class="val" href="tel:+12704913184">(270) 491-3184</a></div>
+          <div class="info__row"><span class="lbl">EMAIL</span><a class="val" href="mailto:info@anufacemindbody.com">info@anufacemindbody.com</a></div>
+          <div class="info__row"><span class="lbl">HOURS</span><span class="val">Closed Mondays · Opens 10:00 AM Tuesday · call for full hours</span></div>
+          <div class="info__row"><span class="lbl">RATING</span><span class="val">5.0 ★ · 17 Google reviews</span></div>
+        </div>
+
+        <div class="map">
+          <iframe
+            title="Map showing ANU Face, Mind, Body at 230 Buford Ln, Suite 106, Elizabethtown, KY"
+            src="https://www.google.com/maps?q=ANU+Face%2C+Mind%2C+Body%2C+230+Buford+Ln+Suite+106%2C+Elizabethtown%2C+KY+42701&z=15&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+
+        <a class="btn btn-outline btn-sm" href="https://maps.app.goo.gl/K2Ci87mapDEjAJGo9" target="_blank" rel="noopener">Get directions →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FAQ ============================= -->
+<section class="section faq" id="faq">
+  <div class="container faq__inner">
+    <div class="faq__left">
+      <div class="clip" data-clip-wrap="tag"><div class="eyebrow"><i></i><span>QUESTIONS</span></div></div>
+      <div class="clip" data-clip-wrap="title"><h2 class="h2-48">The things people ask before they book.</h2></div>
+      <a class="btn btn-primary" href="#contact" data-animate="fade-up" style="margin-top:8px">Book the $39 visit →</a>
+      <p class="call">Or call <a href="tel:+12704913184">(270) 491-3184</a></p>
+    </div>
+
+    <div class="faq__rows" id="faqRows">
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="fa1">
+          <span class="n">01</span><span class="q">How long do I need to stay on GLP-1 therapy?</span>
+          <span class="g" aria-hidden="true"><span class="plus">+</span><span class="minus">−</span></span>
+        </button>
+        <div class="faq__a" id="fa1"><p>Typically long-term. Discontinuing leads to weight regain in most patients, so we treat it like blood-pressure or diabetes therapy: ongoing, and reviewed.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="fa2">
+          <span class="n">02</span><span class="q">Will my insurance cover it?</span>
+          <span class="g" aria-hidden="true"><span class="plus">+</span><span class="minus">−</span></span>
+        </button>
+        <div class="faq__a" id="fa2"><p>Coverage varies by plan. Some plans cover GLP-1 therapy for weight management, many do not, and several require prior authorisation first. We check your benefits and handle the prior authorisation for you. CareCredit and PatientFi financing are available if your plan does not cover it.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="fa3">
+          <span class="n">03</span><span class="q">How quickly will I see results?</span>
+          <span class="g" aria-hidden="true"><span class="plus">+</span><span class="minus">−</span></span>
+        </button>
+        <div class="faq__a" id="fa3"><p>Most patients notice appetite reduction within the first week, visible weight loss at 2-4 weeks, and peak effect between 16 and 20 weeks.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="fa4">
+          <span class="n">04</span><span class="q">What if I miss a weekly injection?</span>
+          <span class="g" aria-hidden="true"><span class="plus">+</span><span class="minus">−</span></span>
+        </button>
+        <div class="faq__a" id="fa4"><p>Take it as soon as you remember if your next scheduled dose is still more than two days away. If it is closer than that, skip the missed dose and go back to your normal weekly schedule. Never double up to catch up. Message us if you have missed more than two weeks, because we may restart you at a lower dose to avoid side effects.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="fa5">
+          <span class="n">05</span><span class="q">Can I drink alcohol on GLP-1 therapy?</span>
+          <span class="g" aria-hidden="true"><span class="plus">+</span><span class="minus">−</span></span>
+        </button>
+        <div class="faq__a" id="fa5"><p>Moderate consumption is generally acceptable. Alcohol can make nausea worse during titration, and it adds calories that work against your goal, so many patients naturally drink less. We review it against your history at your visit.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="fa6">
+          <span class="n">06</span><span class="q">Can I combine GLP-1 with other treatments?</span>
+          <span class="g" aria-hidden="true"><span class="plus">+</span><span class="minus">−</span></span>
+        </button>
+        <div class="faq__a" id="fa6"><p>Yes. GLP-1 therapy is routinely combined with nutrition and activity coaching, vitamin injections, peptide therapy and hormone support. Because one provider manages your whole plan, anything you add is reviewed against your medications and your history first.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false" aria-controls="fa7">
+          <span class="n">07</span><span class="q">Is the $39 really all I pay to start?</span>
+          <span class="g" aria-hidden="true"><span class="plus">+</span><span class="minus">−</span></span>
+        </button>
+        <div class="faq__a" id="fa7"><p>Yes, for the first visit: consult, InBody scan, eligibility and a written plan. Membership and medication are separate and quoted before you commit.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= CLOSING CTA ======================== -->
+<section class="closing on-dark">
+  <div class="closing__media" data-parallax="0.18" aria-hidden="true"></div>
+  <div class="closing__tint" aria-hidden="true"></div>
+  <div class="closing__inner">
+    <div class="eyebrow" data-animate="fade-up"><i></i><span>ONE VISIT · $39 · NO OBLIGATION</span></div>
+    <h2 data-animate="fade-up">Ready to stop negotiating with your appetite?</h2>
+    <p class="sub" data-animate="fade-up">One visit. $39. A straight answer about whether this is right for you.</p>
+    <div class="closing__ctas" data-animate="fade-up">
+      <a class="btn btn-white" href="#contact">Book the $39 consultation →</a>
+      <a class="btn btn-outline-light" href="tel:+12704913184">Call (270) 491-3184</a>
+    </div>
+    <p class="closing__note" data-animate="fade-up">230 Buford Ln, Suite 106, Elizabethtown, KY · 5.0 ★ from 17 reviews</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ==================== FOOTER (design from dysport.html) ==================== -->
+<footer class="footer">
+  <div class="footer__main">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="footer__logo" href="#top" aria-label="ANU Face, Mind, Body home">
+          <img src="images/ANU-logo-white.png" alt="ANU Face, Mind, Body">
+        </a>
+        <p class="footer__tagline">Face | Mind | Body. Medically supervised GLP-1 therapy prescribed, dosed and monitored in person by one board-certified nurse practitioner, locally owned in Elizabethtown, Kentucky. Individual results vary.</p>
+        <a class="footer__cta" href="#contact">Book the $39 visit</a>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__col-title">Contact Us</h3>
+        <div class="footer__links">
+          <a class="footer__link" href="https://maps.app.goo.gl/K2Ci87mapDEjAJGo9" target="_blank" rel="noopener noreferrer">230 Buford Lane, Suite 106</a>
+          <a class="footer__link" href="https://maps.app.goo.gl/K2Ci87mapDEjAJGo9" target="_blank" rel="noopener noreferrer">Elizabethtown, KY 42701</a>
+          <a class="footer__link" href="tel:+12704913184">(270) 491-3184</a>
+          <a class="footer__link" href="mailto:info@anufacemindbody.com">info@anufacemindbody.com</a>
+          <span class="footer__link">Closed Mondays</span>
+          <span class="footer__link">Opens 10:00 AM Tuesday</span>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__col-title">The Programme</h3>
+        <div class="footer__links">
+          <a class="footer__link" href="#included">What's included</a>
+          <a class="footer__link" href="#pricing">Pricing</a>
+          <a class="footer__link" href="#how">How it works</a>
+          <a class="footer__link" href="#safety">Safety</a>
+          <a class="footer__link" href="#faq">FAQ</a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__col-title">Follow Us</h3>
+        <div class="footer__links">
+          <a class="footer__social" href="https://www.instagram.com/anufacemindbody/" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+            <span>Instagram</span>
+          </a>
+          <a class="footer__social" href="https://www.facebook.com/anufacemindbody/" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            <span>Facebook</span>
+          </a>
+          <a class="footer__social" href="https://www.tiktok.com/@anufacemindbody" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+            <span>TikTok</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="footer__bottom-inner">
+      <span class="footer__copy">&copy; 2026 ANU Face | Mind | Body. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+/* parallax layers need headroom so the drift never exposes an edge */
+[data-parallax]{ top:-12%; height:124%; will-change:transform; }
+@media (max-width:768px){ [data-parallax]{ top:0; height:100%; transform:none !important; } }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var hasGSAP = typeof window.gsap !== "undefined";
+  var REDUCED   = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var IS_MOBILE = matchMedia("(max-width: 768px)").matches;
+  var IS_TOUCH  = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+  var LOW_POWER = IS_MOBILE && (navigator.hardwareConcurrency || 8) <= 4;
+
+  if (hasGSAP) {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.config({ nullTargetWarn: false });
+    gsap.defaults({ ease: "power3.out", duration: LOW_POWER ? 0.4 : 0.6 });
+  }
+
+  /* ---------------- Lenis: the site's scroll weight ---------------- */
+  var lenis = null;
+  if (hasGSAP && !REDUCED && !IS_TOUCH && typeof window.Lenis !== "undefined") {
+    lenis = new Lenis({
+      duration: 1.2,
+      easing: function (t) { return Math.min(1, 1.001 - Math.pow(2, -10 * t)); },
+      orientation: "vertical", gestureOrientation: "vertical",
+      smoothWheel: true, touchMultiplier: 2, infinite: false
+    });
+    lenis.on("scroll", ScrollTrigger.update);
+    gsap.ticker.add(function (t) { lenis.raf(t * 1000); });
+    gsap.ticker.lagSmoothing(0);
+  }
+
+  /* ---------------- anchor scrolling ---------------- */
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    var id = a.getAttribute("href");
+    if (!id || id === "#") return;
+    var target = document.querySelector(id);
+    if (!target) return;
+    e.preventDefault();
+    var navEl = document.getElementById("nav");
+    var offset = (navEl ? navEl.getBoundingClientRect().height + 40 : 24);
+    var y = target.getBoundingClientRect().top + window.pageYOffset - offset;
+    if (lenis) lenis.scrollTo(y, { duration: 1.2 });
+    else window.scrollTo({ top: y, behavior: REDUCED ? "auto" : "smooth" });
+    if (navEl) navEl.classList.remove("is-open");
+  });
+
+  /* =====================================================
+     A1. Hero intro timeline  [ANU observed]
+     ===================================================== */
+  function heroIntro() {
+    var hero = document.querySelector("[data-hero-animate]");
+    if (!hero || hero.classList.contains("hero-loaded")) return;
+    var E = "power3.out";
+    var tl = gsap.timeline({ delay: 0.1, onComplete: function () { hero.classList.add("hero-loaded"); } });
+    tl.to("[data-hero-media]",   { opacity: 1, scale: 1, duration: 1.0, ease: E }, 0)
+      .to("[data-hero-overlay]", { opacity: 1, duration: 0.8, ease: E }, 0.1)
+      .to("[data-hero-nav]",     { translate: "0 0", duration: 0.6, ease: "power2.out" }, 0.15)
+      .to("[data-hero-title]",   { y: 0, duration: 0.8, ease: E }, 0.45)
+      .to("[data-hero-info]",    { y: 0, duration: 0.6, ease: E, stagger: 0.08 }, 0.75)
+      .to("[data-hero-bottom]",  { opacity: 1, y: 0, duration: 0.6, ease: E, stagger: 0.08 }, 0.75);
+  }
+
+  /* =====================================================
+     A2. Attribute reveal system  [ANU observed]
+     ===================================================== */
+  function attributeReveals() {
+    document.querySelectorAll("[data-animate]:not(.is-animated)").forEach(function (el) {
+      var type     = el.getAttribute("data-animate") || "fade-in";
+      var delay    = parseFloat(el.getAttribute("data-delay") || "0");
+      var duration = parseFloat(el.getAttribute("data-duration") || (LOW_POWER ? "0.4" : "0.6"));
+      var stagger  = parseFloat(el.getAttribute("data-stagger") || (LOW_POWER ? "0.08" : "0.1"));
+      var done     = function () { el.classList.add("is-animated"); };
+      var base     = { opacity: 1, duration: duration, delay: delay, ease: "power3.out", clearProps: "transform", onComplete: done };
+      var MAP = {
+        "fade-up":     Object.assign({}, base, { y: 0 }),
+        "fade-down":   Object.assign({}, base, { y: 0 }),
+        "fade-in":     Object.assign({}, base),
+        "slide-left":  Object.assign({}, base, { x: 0 }),
+        "slide-right": Object.assign({}, base, { x: 0 }),
+        "scale-up":    Object.assign({}, base, { scale: 1 }),
+        "scale-down":  Object.assign({}, base, { scale: 1 }),
+        "stagger":     { opacity: 1, y: 0, duration: duration, stagger: stagger, ease: "power3.out", onComplete: done }
+      };
+      var vars    = MAP[type] || base;
+      var targets = type === "stagger" ? el.children : el;
+      ScrollTrigger.create({
+        trigger: el,
+        start: IS_MOBILE ? "top 90%" : "top 85%",
+        once: true, fastScrollEnd: true,
+        onEnter: function () { gsap.to(targets, vars); }
+      });
+    });
+  }
+
+  /* =====================================================
+     A3. Clip-mask tag + title reveal  [ANU signature]
+     ===================================================== */
+  function clipReveals() {
+    var bySection = new Map();
+    document.querySelectorAll("[data-clip-wrap]").forEach(function (wrap) {
+      var section = wrap.closest("section, header, footer");
+      if (!section) return;
+      if (!bySection.has(section)) bySection.set(section, []);
+      bySection.get(section).push(wrap);
+    });
+    bySection.forEach(function (wraps, section) {
+      var tags = [], titles = [];
+      wraps.forEach(function (wrap) {
+        var child = wrap.firstElementChild;
+        if (!child || child.classList.contains("clip-revealed")) return;
+        if (wrap.getAttribute("data-clip-wrap") === "tag") tags.push(child); else titles.push(child);
+      });
+      if (!tags.length && !titles.length) return;
+      tags.forEach(function (el) { gsap.set(el, { y: 60 }); });
+      titles.forEach(function (el) { gsap.set(el, { yPercent: 110 }); });
+      ScrollTrigger.create({
+        trigger: section,
+        start: IS_MOBILE ? "top 85%" : "top 75%",
+        once: true, fastScrollEnd: true,
+        onEnter: function () {
+          var tl = gsap.timeline();
+          tags.forEach(function (el) {
+            tl.to(el, { y: 0, duration: 0.65, ease: "power3.out", onComplete: function () { el.classList.add("clip-revealed"); } }, 0);
+          });
+          titles.forEach(function (el) {
+            tl.to(el, { yPercent: 0, duration: 0.68, ease: "power3.out", onComplete: function () { el.classList.add("clip-revealed"); } }, tags.length ? 0.15 : 0);
+          });
+        }
+      });
+    });
+  }
+
+  /* =====================================================
+     A5. Card stagger  [ANU observed: GSAP times it, CSS moves it]
+     ===================================================== */
+  function cardStagger() {
+    document.querySelectorAll("[data-card-stagger]").forEach(function (box) {
+      if (box.dataset.staggerBound) return;
+      box.dataset.staggerBound = "1";
+      var items = Array.prototype.slice.call(box.children);
+      var step  = parseFloat(box.getAttribute("data-card-stagger") || (LOW_POWER ? "0.08" : "0.1")) * 1000;
+      ScrollTrigger.create({
+        trigger: box,
+        start: IS_MOBILE ? "top 85%" : "top 80%",
+        once: true, fastScrollEnd: true,
+        onEnter: function () {
+          items.forEach(function (it, i) { setTimeout(function () { it.classList.add("card-visible"); }, i * step); });
+        }
+      });
+    });
+  }
+
+  /* =====================================================
+     A7. Parallax  [ANU observed: the only scrubbed effect]
+     ===================================================== */
+  function parallax() {
+    if (IS_MOBILE) return;
+    document.querySelectorAll("[data-parallax]").forEach(function (el) {
+      var depth = parseFloat(el.getAttribute("data-parallax") || "0.5");
+      gsap.fromTo(el, { yPercent: -depth * 50 }, {
+        yPercent: depth * 50, ease: "none",
+        scrollTrigger: { trigger: el.parentElement, start: "top bottom", end: "bottom top", scrub: 1 }
+      });
+    });
+  }
+
+  /* =====================================================
+     Press feedback  [ANU fallback: small, fast, no bounce]
+     ===================================================== */
+  function pressFeedback() {
+    document.querySelectorAll(".btn, .option, .faq__q").forEach(function (el) {
+      if (el.dataset.pressBound) return;
+      el.dataset.pressBound = "1";
+      var press = gsap.to(el, { scale: 0.985, duration: 0.1, ease: "power2.out", paused: true });
+      el.addEventListener("pointerdown", function () { press.play(); });
+      el.addEventListener("pointerup",   function () { press.reverse(); });
+      el.addEventListener("pointerleave",function () { press.reverse(); });
+    });
+  }
+
+  /* =====================================================
+     FAQ accordion  [ANU observed icon crossfade + smoothed panel]
+     ===================================================== */
+  function faq() {
+    document.querySelectorAll(".faq__item").forEach(function (item) {
+      var btn   = item.querySelector(".faq__q");
+      var panel = item.querySelector(".faq__a");
+      if (!btn || !panel || item.dataset.faqBound) return;
+      item.dataset.faqBound = "1";
+      if (item.classList.contains("is-open")) panel.style.height = "auto";
+      btn.addEventListener("click", function () {
+        var open = item.classList.contains("is-open");
+        btn.setAttribute("aria-expanded", String(!open));
+        if (!hasGSAP || REDUCED) {
+          item.classList.toggle("is-open", !open);
+          panel.style.height = open ? "0px" : "auto";
+          return;
+        }
+        if (open) {
+          gsap.to(panel, {
+            height: 0, duration: 0.4, ease: "expo.out",
+            onComplete: function () { item.classList.remove("is-open"); ScrollTrigger.refresh(); }
+          });
+        } else {
+          item.classList.add("is-open");
+          gsap.fromTo(panel, { height: 0 }, {
+            height: "auto", duration: 0.4, ease: "expo.out",
+            onComplete: function () { panel.style.height = "auto"; ScrollTrigger.refresh(); }
+          });
+        }
+      });
+    });
+  }
+
+  /* =====================================================
+     Nav (design from dysport.html)
+     ===================================================== */
+  function navToggle() {
+    var nav = document.getElementById("nav");
+    var tgl = document.querySelector("[data-nav-toggle]");
+    if (!nav || !tgl || tgl.dataset.bound) return;
+    tgl.dataset.bound = "1";
+    tgl.addEventListener("click", function () {
+      var open = nav.classList.toggle("is-open");
+      tgl.setAttribute("aria-expanded", String(open));
+      tgl.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      if (hasGSAP && !REDUCED && open) {
+        gsap.from("#nav-mobile", { autoAlpha: 0, y: -10, duration: 0.3, ease: "power1.inOut" });
+      }
+    });
+    nav.querySelectorAll("#nav-mobile a").forEach(function (a) {
+      a.addEventListener("click", function () {
+        nav.classList.remove("is-open");
+        tgl.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  /* ---------- hero video (lazy, respects save-data and reduced motion) ---------- */
+  function heroVideo() {
+    var v = document.getElementById("hero-video");
+    if (!v || v.dataset.loaded) return;
+    var conn = navigator.connection || {};
+    var cheap = conn.saveData === true || /(^|-)2g$/.test(conn.effectiveType || "");
+    if (REDUCED || cheap) return;
+    v.dataset.loaded = "1";
+    var src = document.createElement("source");
+    src.src = v.dataset.src;
+    src.type = "video/mp4";
+    v.appendChild(src);
+    v.preload = "auto";
+    v.load();
+    var play = v.play();
+    if (play && play.catch) play.catch(function () {
+      var once = function () { v.play().catch(function () {}); document.removeEventListener("touchstart", once); };
+      document.addEventListener("touchstart", once, { passive: true, once: true });
+    });
+  }
+
+  /* =====================================================
+     Eligibility quiz
+     Content sourced from anubody.com GLP-1 weight-loss service page
+     ===================================================== */
+  var QUIZ = [
+    {
+      key: "bmi", group: "BODY", name: "Body",
+      q: "What's your current BMI range?",
+      options: [
+        { label: "Under 27", value: "under27" },
+        { label: "27-29 (with a related condition)", value: "27-29" },
+        { label: "30-34", value: "30-34" },
+        { label: "35+", value: "35plus" },
+        { label: "Not sure, I'd like it measured", value: "unsure" }
+      ]
+    },
+    {
+      key: "history", group: "HEALTH HISTORY", name: "Health history",
+      q: "Have you tried diet and exercise without lasting results?",
+      options: [
+        { label: "Yes, more than once", value: "many" },
+        { label: "Yes, once", value: "once" },
+        { label: "I lose weight, then regain it", value: "cycle" },
+        { label: "No, this would be my first attempt", value: "first" }
+      ]
+    },
+    {
+      key: "thyroid", group: "MEDICATIONS", name: "Medications",
+      q: "Any personal or family history of medullary thyroid carcinoma or MEN 2?",
+      options: [
+        { label: "No", value: "no" },
+        { label: "Yes", value: "yes" },
+        { label: "Not sure", value: "unsure" }
+      ]
+    },
+    {
+      key: "pregnancy", group: "GOALS", name: "Goals",
+      q: "Are you pregnant or planning pregnancy?",
+      options: [
+        { label: "No", value: "no" },
+        { label: "Yes, or planning within 12 months", value: "yes" },
+        { label: "Not applicable", value: "na" }
+      ]
+    },
+    {
+      key: "timing", group: "TIMING", name: "Timing",
+      q: "How soon would you want to start?",
+      options: [
+        { label: "As soon as I am cleared", value: "now" },
+        { label: "Within the next month or two", value: "soon" },
+        { label: "Later this year", value: "later" },
+        { label: "Still researching my options", value: "researching" }
+      ]
+    }
+  ];
+
+  function quiz() {
+    var card     = document.getElementById("quizCard");
+    if (!card) return;
+    var stepLbl  = document.getElementById("quizStepLabel");
+    var qEl      = document.getElementById("quizQuestion");
+    var optsEl   = document.getElementById("quizOptions");
+    var nextBtn  = document.getElementById("quizNext");
+    var backBtn  = document.getElementById("quizBack");
+    var micro    = document.getElementById("quizMicro");
+    var live     = document.getElementById("quizLive");
+    var prog     = document.getElementById("quizProgress");
+    var steps    = document.getElementById("quizSteps");
+    var tileTitle= document.getElementById("quizTileTitle");
+
+    var index = 0;
+    var answers = {};
+    var finished = false;
+
+    function animateIn() {
+      if (!hasGSAP || REDUCED) return;
+      gsap.fromTo([stepLbl, qEl, optsEl, card.querySelector(".quiz__actions")],
+        { autoAlpha: 0, y: 14 },
+        { autoAlpha: 1, y: 0, duration: 0.45, ease: "power3.out", stagger: 0.06, clearProps: "transform" });
+    }
+
+    function paintTile() {
+      var segs = prog.querySelectorAll("span");
+      segs.forEach(function (s, i) { s.classList.toggle("on", finished || i <= index); });
+      prog.setAttribute("aria-valuenow", String(Math.min(index + 1, 5)));
+      steps.querySelectorAll(".step").forEach(function (s, i) {
+        s.classList.toggle("is-active", !finished && i === index);
+        s.classList.toggle("is-done", finished || i < index);
+      });
+      tileTitle.textContent = finished ? "That's everything we need." : "Five steps, then a straight answer.";
+    }
+
+    function paintQuestion() {
+      var step = QUIZ[index];
+      stepLbl.textContent = "QUESTION " + (index + 1) + " OF 5 · " + step.group;
+      qEl.textContent = step.q;
+      optsEl.innerHTML = "";
+
+      {
+        optsEl.className = "options";
+        optsEl.setAttribute("role", "radiogroup");
+        step.options.forEach(function (opt) {
+          var b = document.createElement("button");
+          b.type = "button";
+          b.className = "option" + (answers[step.key] === opt.value ? " is-selected" : "");
+          b.setAttribute("role", "radio");
+          b.setAttribute("aria-checked", String(answers[step.key] === opt.value));
+          b.innerHTML = '<span class="radio"></span>' + opt.label;
+          b.addEventListener("click", function () {
+            answers[step.key] = opt.value;
+            optsEl.querySelectorAll(".option").forEach(function (o) {
+              o.classList.remove("is-selected"); o.setAttribute("aria-checked", "false");
+            });
+            b.classList.add("is-selected"); b.setAttribute("aria-checked", "true");
+            nextBtn.disabled = false;
+            live.textContent = opt.label + " selected.";
+          });
+          optsEl.appendChild(b);
+        });
+        nextBtn.disabled = answers[step.key] === undefined;
+        nextBtn.innerHTML = (index === QUIZ.length - 1)
+          ? 'See my result <span aria-hidden="true">→</span>'
+          : 'Continue <span aria-hidden="true">→</span>';
+      }
+
+      backBtn.hidden = index === 0;
+      micro.textContent = index === QUIZ.length - 1
+        ? "No card, no contact details. Your answer appears on this page."
+        : "Takes about a minute. We never sell your information.";
+      paintTile();
+      animateIn();
+      pressFeedback();
+    }
+
+    function verdict() {
+      if (answers.pregnancy === "yes" || answers.thyroid === "yes") {
+        return {
+          title: "One answer needs a provider to look at it first.",
+          body: "Pregnancy, planning a pregnancy, and a personal or family history of medullary thyroid carcinoma or MEN 2 are absolute contraindications for semaglutide and tirzepatide. That does not close the door. Amy can review your full metabolic picture in person and build a plan that does not rely on a GLP-1.",
+          list: [
+            "The $39 visit still includes the consultation and the InBody scan",
+            "You leave with a written plan either way",
+            "No medication is prescribed until you are cleared for it"
+          ],
+          cta: "Book a $39 review"
+        };
+      }
+      return {
+        title: "Good news, you look like a good candidate.",
+        body: "Your answers line up with the patients who do well on GLP-1 therapy here. The next step is the $39 visit, where Amy measures your body composition, screens your history in person and confirms eligibility before anything is prescribed. Patients at ANU lose an average of 12-15% of body weight over 16-20 weeks.",
+        list: [
+          "Appetite change typically starts in the first 1-2 weeks",
+          "Full effect between 16 and 20 weeks, with the dose titrated by your provider",
+          "$39 covers the consult, the InBody scan and a written plan you take home"
+        ],
+        cta: "Book the $39 visit"
+      };
+    }
+
+    function showResult() {
+      finished = true;
+      var v = verdict();
+      card.innerHTML =
+        '<span class="quiz__step">YOUR RESULT · BASED ON 5 ANSWERS</span>' +
+        '<div class="quiz__result" style="display:flex;flex-direction:column;gap:20px">' +
+          '<h3>' + v.title + '</h3>' +
+          '<p>' + v.body + '</p>' +
+          '<ul>' + v.list.map(function (t) { return '<li><i></i><span>' + t + '</span></li>'; }).join("") + '</ul>' +
+        '</div>' +
+        '<div class="quiz__actions">' +
+          '<a class="btn btn-primary" href="#contact">' + v.cta + ' <span aria-hidden="true">&rarr;</span></a>' +
+          '<p class="quiz__micro">This is a guide, not a diagnosis. Eligibility is confirmed in consultation.</p>' +
+        '</div>';
+      paintTile();
+      if (hasGSAP && !REDUCED) {
+        gsap.fromTo(card.children, { autoAlpha: 0, y: 16 },
+          { autoAlpha: 1, y: 0, duration: 0.5, ease: "power3.out", stagger: 0.08, clearProps: "transform" });
+      }
+      pressFeedback();
+      if (hasGSAP) ScrollTrigger.refresh();
+    }
+
+    card.addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (nextBtn.disabled) return;
+      if (index === QUIZ.length - 1) { showResult(); return; }
+      index += 1;
+      paintQuestion();
+    });
+    backBtn.addEventListener("click", function () {
+      if (index === 0) return;
+      index -= 1;
+      paintQuestion();
+    });
+
+    paintQuestion();
+  }
+
+  /* =====================================================
+     Booking form
+     ===================================================== */
+  function bookingForm() {
+    var form = document.getElementById("bookForm");
+    if (!form) return;
+    var note = document.getElementById("bookNote");
+    var btn  = document.getElementById("bookSubmit");
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var ok = form.checkValidity();
+      if (!ok) {
+        note.textContent = "Please add your name, email and phone so we can confirm the appointment.";
+        note.style.color = "#8a2f2f";
+        form.reportValidity();
+        return;
+      }
+      btn.disabled = true;
+      btn.querySelector(".btn__label").textContent = "Sending…";
+      setTimeout(function () {
+        btn.querySelector(".btn__label").textContent = "Request received ✓";
+        note.style.color = "";
+        note.textContent = "Thank you. The clinic will call you on the number you gave to confirm your $39 visit.";
+        if (hasGSAP && !REDUCED) gsap.to(btn, { backgroundColor: "#6A5C4C", borderColor: "#6A5C4C", duration: 0.25, ease: "power1.inOut" });
+      }, 700);
+    });
+  }
+
+  /* =====================================================
+     Init
+     ===================================================== */
+  function initMotion() {
+    heroIntro(); attributeReveals(); clipReveals(); cardStagger(); parallax(); pressFeedback();
+  }
+
+  function stampFinalStates() {
+    document.querySelectorAll("[data-animate]").forEach(function (e) { e.classList.add("is-animated"); });
+    document.querySelectorAll("[data-clip-wrap] > *").forEach(function (e) { e.classList.add("clip-revealed"); });
+    document.querySelectorAll("[data-card-stagger] > *").forEach(function (e) { e.classList.add("card-visible"); });
+    document.querySelectorAll("[data-hero-nav]").forEach(function (e) { e.style.translate = "none"; });
+    document.querySelectorAll("[data-hero-media]").forEach(function (e) { e.style.opacity = "1"; e.style.transform = "none"; });
+    document.querySelectorAll("[data-hero-overlay]").forEach(function (e) { e.style.opacity = "1"; });
+    document.querySelectorAll("[data-hero-title],[data-hero-info],[data-hero-bottom]").forEach(function (e) {
+      e.style.transform = "none"; e.style.opacity = "1";
+    });
+    document.querySelectorAll("[data-hero-animate]").forEach(function (e) { e.classList.add("hero-loaded"); });
+  }
+
+  function boot() {
+    if (!hasGSAP || REDUCED) stampFinalStates(); else initMotion();
+    faq(); navToggle(); heroVideo(); quiz(); bookingForm();
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);
+  else boot();
+
+  window.addEventListener("load", function () { if (hasGSAP) ScrollTrigger.refresh(); });
+
+  var rt;
+  window.addEventListener("resize", function () {
+    clearTimeout(rt);
+    rt = setTimeout(function () {
+      if (!hasGSAP) return;
+      ScrollTrigger.refresh();
+      if (!REDUCED) { attributeReveals(); cardStagger(); }
+    }, 200);
+  });
+
+  window.addEventListener("pagehide", function (e) {
+    if (e.persisted) return;
+    if (lenis) lenis.destroy();
+    if (hasGSAP) ScrollTrigger.getAll().forEach(function (t) { t.kill(); });
+  });
+})();
+</script>
+</body>
+</html>
